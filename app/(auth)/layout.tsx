@@ -1,3 +1,5 @@
+import AuthFooter from "@/components/auth-footer";
+
 export default function AuthLayout({ children }: { children: React.ReactNode }) {
   return (
     <main>
@@ -16,6 +18,7 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
         </div>
       </div>
       <div className="w-full flex items-center justify-center -mt-24">{children}</div>
+      <AuthFooter />
     </main>
   );
 }
