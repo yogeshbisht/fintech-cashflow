@@ -30,31 +30,29 @@ const menuList: SidebarMenuItem[] = [
 
 const SidebarMenu = () => {
   return (
-    <div className="mt-4 w-full">
-      <div className="transition-standard">
-        <ul className="flex flex-wrap pl-4 mb-0 list-none transition-standard">
-          {menuList.map((menu) => (
-            <li className="w-full" key={menu.title}>
-              <a
-                className="py-3 pl-4 relative my-0 mr-4 flex items-center whitespace-nowrap bg-transparent pr-4 text-slate-500 dark:text-white"
-                href={menu.link}
-              >
-                <div className="flex items-center justify-center mr-4 rounded-md p-2 bg-slate-900 dark:bg-slate-200 text-slate-200 dark:text-slate-950">
-                  {menu.icon}
+    <div className="transition-standard">
+      <ul className="flex flex-wrap pl-4 mb-0 list-none transition-standard">
+        {menuList.map((menu) => (
+          <li className="w-full" key={menu.title}>
+            <a
+              className="py-3 pl-4 relative my-0 mr-4 flex items-center whitespace-nowrap bg-transparent pr-4 text-slate-500 dark:text-white"
+              href={menu.link}
+            >
+              <div className="flex items-center justify-center mr-4 rounded-md p-2 bg-slate-900 dark:bg-slate-200 text-slate-200 dark:text-slate-950">
+                {menu.icon}
+              </div>
+              <span className="text-sm pointer-events-none text-slate-900 dark:text-slate-200">
+                {menu.title}
+              </span>
+              {menu.subMenu && (
+                <div className="absolute right-0">
+                  <LuChevronDown className="text-xs text-slate-900 dark:text-slate-200" />
                 </div>
-                <span className="text-sm pointer-events-none text-slate-900 dark:text-slate-200">
-                  {menu.title}
-                </span>
-                {menu.subMenu && (
-                  <div className="absolute right-0">
-                    <LuChevronDown className="text-xs text-slate-900 dark:text-slate-200" />
-                  </div>
-                )}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
+              )}
+            </a>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
