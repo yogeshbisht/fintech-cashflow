@@ -30,8 +30,8 @@ const menuList: SidebarMenuItem[] = [
 
 const SidebarMenu = () => {
   return (
-    <div className="transition-standard">
-      <ul className="flex flex-wrap pl-4 mb-0 list-none transition-standard">
+    <div>
+      <ul className="flex flex-wrap pl-4 mb-0 list-none">
         {menuList.map((menu) => (
           <li className="w-full" key={menu.title}>
             <a

@@ -16,7 +16,7 @@ const Sidebar = () => {
           <LuPanelLeftClose />
         </div>
         <div className="flex flex-col justify-center items-center py-12 text-2xl">
-          <Image src={logo} width={96} height={96} alt="logo" />
+          <Image src={logo} width={96} height={96} alt="logo" priority />
           <span className="mt-3">Financiallence</span>
         </div>
       </div>

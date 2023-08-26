@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .transition-standard {
-    @apply transition-all duration-200 ease-in-out;
-  }
-}
-
 html,
 body,
 :root {
