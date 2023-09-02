@@ -1,6 +1,6 @@
 import { LuBarChart, LuCoins, LuUserPlus, LuUsers } from "react-icons/lu";
 import StatisticsCard from "./components/statistics-card";
-import PanelTitle from "@/components/ui/panel-title";
+import PageHeader from "@/components/ui/page-header";
 
 const statisticsData = [
   {
@@ -35,7 +35,7 @@ const statisticsData = [
 export default function Home() {
   return (
     <div className="relative">
-      <PanelTitle title="General Statistics" />
+      <PageHeader title="General Statistics" />
       <div className="w-full">
         <div className="grid grid-cols-2 gap-6 2xl:grid-cols-4">
           {statisticsData.map((statistic, index) => (

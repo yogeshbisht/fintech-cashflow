@@ -1,11 +1,13 @@
 interface PanelTitleProps {
   title: string;
+  description: string;
 }
 
-const PanelTitle: React.FC<PanelTitleProps> = ({ title }) => {
+const PanelTitle: React.FC<PanelTitleProps> = ({ title, description }) => {
   return (
-    <div className="my-6 ml-4">
-      <h2 className="font-medium dark:text-white">{title}</h2>
+    <div className="p-6">
+      <h5 className="dark:text-white">{title}</h5>
+      <p className="leading-normal text-sm">{description}</p>
     </div>
   );
 };

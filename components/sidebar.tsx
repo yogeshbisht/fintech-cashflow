@@ -26,7 +26,7 @@ const Sidebar = () => {
       <div className="my-6 w-full">
         <SidebarMenu />
       </div>
-      
+
       <SidebarDivider />
     </div>
   );

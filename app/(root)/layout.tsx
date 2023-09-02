@@ -7,12 +7,12 @@ export default function HomeLayout({
   children: React.ReactNode;
 }) {
   return (
-    <>
+    <div className="flex">
       <Sidebar />
-      <main className="relative h-full max-h-screen transition-all duration-200 ease-soft-in-out py-4 px-6 xl:ml-68 rounded-xl">
+      <main className="relative flex-1 py-4 px-6 xl:ml-68 rounded-xl">
         <Navbar />
         <div className="py-6 h-full rounded-2xl">{children}</div>
       </main>
-    </>
+    </div>
   );
 }
