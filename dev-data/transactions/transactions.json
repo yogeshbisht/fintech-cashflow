@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "6afa4787-874e-4e84-8673-1f28f22d802c",
+    "description": "payment transaction at Muller - O'Reilly using card ending with ***9651 for CUP 615.89 in account ***49049297",
+    "amount": "88.23",
+    "start_date": "2023-01-22T16:56:52.707Z",
+    "type": "data",
+    "scenario": "90e8558a-17f8-4158-82bb-2d19eb82320b",
+    "category": "e1eea50e-6a0a-48fb-8a3f-c8033f2df3fa",
+    "reminder": {
+      "status": true,
+      "date": "2024-07-31T12:58:36.383Z",
+      "notes": "Quidem amet ipsum dolore."
+    },
+    "frequency": {
+      "type": "weekly",
+      "value": 6
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": 4
+    },
+    "created": "2022-10-28T01:27:07.642Z",
+    "updated": "2022-10-22T20:00:41.943Z"
+  },
+  {
+    "id": "424400ef-7e1b-444e-89bd-f612eb75fcc5",
+    "description": "withdrawal transaction at Johns - Kunde using card ending with ***1554 for BGN 210.22 in account ***33510862",
+    "amount": "881.34",
+    "start_date": "2023-06-16T14:59:33.680Z",
+    "type": "bank",
+    "scenario": "63a6ce8a-6079-4320-acce-d15b0ab4cc56",
+    "category": "bf06bd1f-d3a4-49c5-862a-b8d7be598dfe",
+    "reminder": {
+      "status": false,
+      "date": "2024-06-16T18:15:30.986Z",
+      "notes": "Dolor temporibus nihil."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 5
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": "2024-09-02T20:29:40.571Z"
+    },
+    "created": "2022-12-15T01:00:14.132Z",
+    "updated": "2023-02-07T17:50:37.062Z"
+  },
+  {
+    "id": "7c94c659-04ba-4258-ab8f-e8361f3e92a4",
+    "description": "payment transaction at Cormier - Cartwright using card ending with ***2746 for NIO 808.61 in account ***09573244",
+    "amount": "645.30",
+    "start_date": "2023-07-13T14:26:13.184Z",
+    "type": "manual",
+    "scenario": "8a1daf92-e4da-4586-ba93-d06d33f1a93a",
+    "category": "4af74c9f-7077-414e-a0fe-790ee9f67fca",
+    "reminder": {
+      "status": true,
+      "date": "2024-05-05T23:31:29.006Z",
+      "notes": "Quo aperiam dolore iure enim quidem dolorum dignissimos reiciendis at."
+    },
+    "frequency": {
+      "type": "weekly",
+      "value": 4
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": 2
+    },
+    "created": "2023-05-14T10:56:59.056Z",
+    "updated": "2022-12-11T14:10:55.586Z"
+  },
+  {
+    "id": "53b4b4ba-7400-4d55-928b-db8c6907c6c6",
+    "description": "invoice transaction at Herzog Group using card ending with ***5129 for FJD 572.59 in account ***47867017",
+    "amount": "988.77",
+    "start_date": "2022-09-14T19:16:17.313Z",
+    "type": "bank",
+    "scenario": "f181f702-4678-4252-9e83-704fb8949c20",
+    "category": "0023c835-23c2-49ce-9776-2092f9b2d702",
+    "reminder": {
+      "status": true,
+      "date": "2024-04-18T18:55:47.547Z",
+      "notes": "Autem placeat sit illum nesciunt praesentium molestias aliquid incidunt harum."
+    },
+    "frequency": {
+      "type": "daily",
+      "value": 6
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": 9
+    },
+    "created": "2023-01-16T16:55:23.763Z",
+    "updated": "2023-07-01T14:10:53.448Z"
+  },
+  {
+    "id": "0f81ff5b-3047-4baf-aacc-e0676e652209",
+    "description": "deposit transaction at Rohan - Rau using card ending with ***2654 for STN 92.29 in account ***56694916",
+    "amount": "409.04",
+    "start_date": "2023-03-02T02:14:30.482Z",
+    "type": "data",
+    "scenario": "22d357b2-4816-41cb-a013-c9684449cde9",
+    "category": "e9c245c1-8e24-4872-b9b9-39d6cec18bb8",
+    "reminder": {
+      "status": true,
+      "date": "2024-08-07T17:05:49.934Z",
+      "notes": "Officiis in deleniti sapiente enim consequatur ullam commodi."
+    },
+    "frequency": {
+      "type": "daily",
+      "value": 6
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": "2024-05-12T15:20:35.713Z"
+    },
+    "created": "2023-08-03T02:56:34.583Z",
+    "updated": "2023-03-28T07:15:20.683Z"
+  },
+  {
+    "id": "356a1c8e-1de7-451f-b986-0b4b2ba688de",
+    "description": "deposit transaction at Daugherty - Conroy using card ending with ***0346 for ERN 587.91 in account ***77287590",
+    "amount": "976.89",
+    "start_date": "2023-08-03T21:31:06.521Z",
+    "type": "data",
+    "scenario": "394645e5-b72b-4f92-b93d-4f7d00863c8b",
+    "category": "704400f4-5d03-4459-b57c-24fd626fe68b",
+    "reminder": {
+      "status": false,
+      "date": "2024-01-02T06:34:11.952Z",
+      "notes": "Cum nostrum animi eos sit omnis excepturi sequi maiores."
+    },
+    "frequency": {
+      "type": "monthly",
+      "value": 2
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": "2024-07-29T02:27:01.625Z"
+    },
+    "created": "2023-01-11T03:14:18.109Z",
+    "updated": "2023-04-24T22:00:15.759Z"
+  },
+  {
+    "id": "8e068d97-1be6-44e2-8241-c6fa0af49a55",
+    "description": "invoice transaction at Stroman - Goyette using card ending with ***7700 for PYG 985.45 in account ***73990308",
+    "amount": "737.49",
+    "start_date": "2023-08-23T02:16:52.923Z",
+    "type": "sub",
+    "scenario": "37bc4cc9-7ae8-47ef-9060-c832d00152de",
+    "category": "15277a37-8eb1-423f-9c10-0f5280a58a46",
+    "reminder": {
+      "status": true,
+      "date": "2023-11-22T21:09:38.613Z",
+      "notes": "Vel itaque nesciunt ea repellendus."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 10
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": "2024-06-29T14:24:51.161Z"
+    },
+    "created": "2023-03-19T23:35:33.820Z",
+    "updated": "2022-12-12T11:43:27.112Z"
+  },
+  {
+    "id": "58fb7182-8969-4b97-a228-93fee19cfc01",
+    "description": "withdrawal transaction at Botsford - Schiller using card ending with ***8953 for SZL 521.96 in account ***30158342",
+    "amount": "444.97",
+    "start_date": "2022-09-06T20:05:26.804Z",
+    "type": "data",
+    "scenario": "69fb6a3c-1fff-44ee-a831-2401dc92a554",
+    "category": "fefa4aa5-3fb9-4026-b168-6f2c4a17eb04",
+    "reminder": {
+      "status": true,
+      "date": "2023-12-18T00:35:58.290Z",
+      "notes": "Molestias corporis dicta commodi quasi delectus sunt."
+    },
+    "frequency": {
+      "type": "weekly",
+      "value": 2
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": 9
+    },
+    "created": "2023-04-02T19:37:55.769Z",
+    "updated": "2023-07-22T18:10:39.743Z"
+  },
+  {
+    "id": "4e5cf2f6-f4fb-48da-ab56-34c07937c2d2",
+    "description": "withdrawal transaction at Sawayn - Little using card ending with ***5339 for ILS 17.05 in account ***34627234",
+    "amount": "259.08",
+    "start_date": "2023-01-13T11:31:40.995Z",
+    "type": "data",
+    "scenario": "408507a4-87ae-4fbe-9c04-f23b0b099b5b",
+    "category": "1ad31dda-77ca-4ae3-b462-eb94e50048f1",
+    "reminder": {
+      "status": false,
+      "date": "2024-07-27T09:27:24.039Z",
+      "notes": "Dicta perspiciatis est pariatur aliquam dolorem dolor."
+    },
+    "frequency": {
+      "type": "weekly",
+      "value": 2
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": "2024-05-11T16:57:57.767Z"
+    },
+    "created": "2022-11-24T23:43:12.736Z",
+    "updated": "2023-01-16T23:03:06.714Z"
+  },
+  {
+    "id": "04cbf3e4-51d8-4f52-835e-82700ce536f9",
+    "description": "invoice transaction at Reinger - Rath using card ending with ***7877 for UAH 812.15 in account ***35378022",
+    "amount": "6.65",
+    "start_date": "2023-08-01T15:07:28.562Z",
+    "type": "manual",
+    "scenario": "6f2dcc72-7eaa-49de-8165-f40ab1f878b4",
+    "category": "d168601b-1457-4652-bc8e-030d23a60fa3",
+    "reminder": {
+      "status": false,
+      "date": "2024-07-24T12:23:19.729Z",
+      "notes": "Accusamus commodi soluta."
+    },
+    "frequency": {
+      "type": "weekly",
+      "value": 1
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": "2023-11-23T07:02:41.888Z"
+    },
+    "created": "2022-11-23T22:40:55.667Z",
+    "updated": "2023-06-15T15:35:39.573Z"
+  },
+  {
+    "id": "5ddc4f0f-ae5a-4f26-9337-797d9a666a8d",
+    "description": "deposit transaction at Haag and Sons using card ending with ***2538 for PHP 863.94 in account ***20486915",
+    "amount": "940.37",
+    "start_date": "2023-01-07T19:56:35.297Z",
+    "type": "sub",
+    "scenario": "9e2215fc-0d31-4902-9e4b-398397434b25",
+    "category": "b63e32dc-028e-424f-a125-bdb47d641e6c",
+    "reminder": {
+      "status": true,
+      "date": "2024-04-23T11:51:30.151Z",
+      "notes": "Consequatur cumque est animi asperiores soluta eligendi esse."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 9
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": 4
+    },
+    "created": "2023-03-08T08:49:39.036Z",
+    "updated": "2022-12-14T01:37:13.133Z"
+  },
+  {
+    "id": "ce9bc179-6a45-4f30-a3eb-ae107ccfacc0",
+    "description": "deposit transaction at Homenick, Kovacek and Brakus using card ending with ***0023 for ILS 270.60 in account ***88717790",
+    "amount": "811.83",
+    "start_date": "2022-12-12T11:44:31.735Z",
+    "type": "bank",
+    "scenario": "08833900-ef9c-4635-b142-7d275c0fe38a",
+    "category": "23cff9b1-b9c8-42fa-94d7-d7b28ebb472f",
+    "reminder": {
+      "status": true,
+      "date": "2024-05-06T14:52:06.144Z",
+      "notes": "Vel exercitationem perspiciatis voluptatibus nostrum ullam temporibus."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 4
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": "2024-07-27T18:20:38.887Z"
+    },
+    "created": "2023-03-18T23:02:56.651Z",
+    "updated": "2023-08-04T13:01:52.994Z"
+  },
+  {
+    "id": "fb05f0c5-aa84-407f-816f-914b747c065e",
+    "description": "invoice transaction at Bernier and Sons using card ending with ***1229 for ANG 470.97 in account ***62536538",
+    "amount": "649.40",
+    "start_date": "2022-12-23T03:01:35.749Z",
+    "type": "data",
+    "scenario": "b1bbc848-6296-4a01-8419-58bf1681ca92",
+    "category": "9354cf03-399b-4302-a2da-555acd850ad2",
+    "reminder": {
+      "status": true,
+      "date": "2024-08-10T16:09:55.462Z",
+      "notes": "Omnis delectus eligendi."
+    },
+    "frequency": {
+      "type": "weekly",
+      "value": 9
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": 4
+    },
+    "created": "2023-02-27T15:52:40.851Z",
+    "updated": "2023-07-05T22:49:08.605Z"
+  },
+  {
+    "id": "6d31b2d1-2a66-4177-938e-1010a54c40c5",
+    "description": "deposit transaction at Kessler - McCullough using card ending with ***7163 for ZAR 832.59 in account ***05489393",
+    "amount": "908.63",
+    "start_date": "2022-11-10T14:22:04.573Z",
+    "type": "bank",
+    "scenario": "4f4b1da5-d9b3-4470-a915-261b4227e5f6",
+    "category": "cb0a8575-bc7c-4464-943c-10fdc0adbfd9",
+    "reminder": {
+      "status": false,
+      "date": "2024-03-21T17:38:29.113Z",
+      "notes": "Delectus quibusdam nisi dolor necessitatibus sed perspiciatis ducimus odit."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 4
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": "2024-01-26T22:36:09.714Z"
+    },
+    "created": "2022-10-14T00:51:57.600Z",
+    "updated": "2023-04-24T05:32:27.594Z"
+  },
+  {
+    "id": "86b2012f-f12e-496f-8c19-5fa4192b1cb6",
+    "description": "withdrawal transaction at McClure Inc using card ending with ***0029 for JPY 757.74 in account ***84340116",
+    "amount": "874.83",
+    "start_date": "2023-04-16T23:06:44.829Z",
+    "type": "data",
+    "scenario": "163e5189-b932-41d3-a9cb-f16458e40107",
+    "category": "949040de-2797-40ec-b881-6296a1d33fce",
+    "reminder": {
+      "status": true,
+      "date": "2023-11-28T02:42:59.783Z",
+      "notes": "Facere temporibus consequuntur."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 7
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": "2023-12-08T20:43:17.139Z"
+    },
+    "created": "2022-12-29T08:50:51.214Z",
+    "updated": "2023-04-27T03:41:41.619Z"
+  },
+  {
+    "id": "fdea7fa1-261a-4017-b580-47bf958f62d7",
+    "description": "payment transaction at Yost LLC using card ending with ***7428 for QAR 911.19 in account ***87718217",
+    "amount": "24.22",
+    "start_date": "2022-11-09T18:45:35.728Z",
+    "type": "bank",
+    "scenario": "b90723ad-0bca-42ed-94c9-1fe06b62c73a",
+    "category": "2eee3610-f59b-4e4f-a674-25bc2b9c9013",
+    "reminder": {
+      "status": true,
+      "date": "2023-12-19T16:28:33.476Z",
+      "notes": "Autem quo veniam provident explicabo temporibus."
+    },
+    "frequency": {
+      "type": "daily",
+      "value": 10
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": "2024-03-23T02:29:03.077Z"
+    },
+    "created": "2022-09-25T22:39:37.664Z",
+    "updated": "2023-03-12T15:09:39.595Z"
+  },
+  {
+    "id": "4b597ef1-bcbd-4769-8870-c9aff72c6a31",
+    "description": "withdrawal transaction at Kiehn - Kiehn using card ending with ***1221 for XOF 80.12 in account ***65524158",
+    "amount": "540.59",
+    "start_date": "2023-06-22T23:30:29.033Z",
+    "type": "sub",
+    "scenario": "b6391c2f-61f2-448f-a7a9-693d73b4abff",
+    "category": "7d6a0d2f-83d6-4b38-b723-349cdfa12142",
+    "reminder": {
+      "status": true,
+      "date": "2024-03-29T16:38:35.711Z",
+      "notes": "Exercitationem similique numquam sapiente quos adipisci minima."
+    },
+    "frequency": {
+      "type": "weekly",
+      "value": 10
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": 10
+    },
+    "created": "2022-10-17T05:14:10.180Z",
+    "updated": "2023-07-19T20:08:13.297Z"
+  },
+  {
+    "id": "034fe30e-7255-45b1-98b7-afcf7efb7ff9",
+    "description": "withdrawal transaction at Williamson, Schneider and Windler using card ending with ***9733 for MKD 462.24 in account ***51636701",
+    "amount": "401.10",
+    "start_date": "2023-06-13T00:22:00.397Z",
+    "type": "manual",
+    "scenario": "f37bbd0f-aacb-42b3-88bd-3d6554e57c67",
+    "category": "d14bd0dc-ee04-44b1-9d9b-d56f304a0197",
+    "reminder": {
+      "status": true,
+      "date": "2023-10-29T09:58:19.769Z",
+      "notes": "Adipisci maxime molestiae error reprehenderit aliquid accusantium."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 2
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": 4
+    },
+    "created": "2022-10-15T20:48:53.414Z",
+    "updated": "2023-01-02T18:47:29.638Z"
+  },
+  {
+    "id": "f56b9a4c-f320-4fc3-9157-115f94ba9a56",
+    "description": "invoice transaction at Kuhn, Kautzer and Donnelly using card ending with ***6620 for TMT 248.14 in account ***64065127",
+    "amount": "107.59",
+    "start_date": "2023-05-05T00:37:59.659Z",
+    "type": "bank",
+    "scenario": "039f708f-159c-41cf-82c7-fbd61cc39b14",
+    "category": "816ab68f-7575-4903-bb74-8a8a8ebd8d11",
+    "reminder": {
+      "status": false,
+      "date": "2024-02-09T01:43:09.531Z",
+      "notes": "Aliquam eaque sunt minima."
+    },
+    "frequency": {
+      "type": "monthly",
+      "value": 6
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": "2023-11-23T09:57:23.573Z"
+    },
+    "created": "2023-07-09T22:08:30.988Z",
+    "updated": "2023-06-28T07:47:34.457Z"
+  },
+  {
+    "id": "8a1ccdb2-2722-4453-922f-0d09179e88ae",
+    "description": "withdrawal transaction at McKenzie - Ullrich using card ending with ***5571 for BHD 259.75 in account ***07021447",
+    "amount": "431.55",
+    "start_date": "2022-09-14T05:49:03.783Z",
+    "type": "sub",
+    "scenario": "536515f0-0cb7-4df9-80d1-2f55a16d3df0",
+    "category": "b55ee38f-47cc-4645-bc33-9a7b50111138",
+    "reminder": {
+      "status": true,
+      "date": "2023-10-09T17:09:22.321Z",
+      "notes": "Pariatur voluptatum ipsum ea enim porro nisi dolore eum."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 2
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": "2023-10-27T06:48:51.833Z"
+    },
+    "created": "2023-03-05T11:20:22.970Z",
+    "updated": "2023-09-05T08:34:42.878Z"
+  },
+  {
+    "id": "07419305-5fd8-4654-89cb-a4231f2bc39c",
+    "description": "invoice transaction at Quitzon, Grant and Roberts using card ending with ***3515 for SEK 889.85 in account ***94547813",
+    "amount": "199.63",
+    "start_date": "2023-01-08T12:20:32.121Z",
+    "type": "bank",
+    "scenario": "463d75b0-31ef-40c9-a310-7b61efc9b6ee",
+    "category": "75c06bb7-fcf3-4990-af84-cb4db320d390",
+    "reminder": {
+      "status": true,
+      "date": "2024-04-09T20:41:15.059Z",
+      "notes": "Rerum quasi labore repudiandae voluptas error hic quos blanditiis placeat."
+    },
+    "frequency": {
+      "type": "weekly",
+      "value": 9
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": 5
+    },
+    "created": "2023-03-14T01:10:23.504Z",
+    "updated": "2023-05-20T17:27:25.804Z"
+  },
+  {
+    "id": "8e683074-23d2-4049-8180-6dd4b2d18508",
+    "description": "invoice transaction at Goodwin, Herman and Kulas using card ending with ***7605 for ZMW 222.50 in account ***35590002",
+    "amount": "230.28",
+    "start_date": "2023-01-25T09:02:26.204Z",
+    "type": "bank",
+    "scenario": "b2cb3617-5eaa-4c02-808e-5c0bafeac3d2",
+    "category": "8e79842f-14d3-4db8-a014-388f17b15cac",
+    "reminder": {
+      "status": true,
+      "date": "2023-10-22T13:41:52.432Z",
+      "notes": "Ad est alias neque aut cumque ratione aut."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 8
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": "2024-05-19T12:38:51.859Z"
+    },
+    "created": "2023-05-23T07:12:50.453Z",
+    "updated": "2023-09-02T20:16:43.459Z"
+  },
+  {
+    "id": "ade68d39-7c24-48c8-b034-62de0f4c32c8",
+    "description": "invoice transaction at Bartell - Stokes using card ending with ***5145 for HUF 889.30 in account ***01628925",
+    "amount": "33.43",
+    "start_date": "2022-11-24T16:37:33.317Z",
+    "type": "manual",
+    "scenario": "9a2fb5ba-1f63-4895-af93-73e1e554e1e7",
+    "category": "64eef311-c04a-483b-98cc-2cafffc3ce59",
+    "reminder": {
+      "status": true,
+      "date": "2024-01-06T12:23:29.064Z",
+      "notes": "Corrupti est dolorum."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 3
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": 6
+    },
+    "created": "2022-11-30T19:50:32.335Z",
+    "updated": "2023-05-21T22:46:42.707Z"
+  },
+  {
+    "id": "6f417faf-cabe-4400-b3b2-f1598f9c2198",
+    "description": "deposit transaction at Adams - Swift using card ending with ***7770 for MYR 934.62 in account ***54655842",
+    "amount": "415.54",
+    "start_date": "2023-07-02T21:29:52.142Z",
+    "type": "sub",
+    "scenario": "5b0f8611-cb78-4321-88a1-f27e9e315f9d",
+    "category": "d02c0c5b-cd8a-4476-bc63-05d50ccedacc",
+    "reminder": {
+      "status": true,
+      "date": "2024-05-28T13:42:53.308Z",
+      "notes": "Corporis doloribus corporis libero error placeat sed ut incidunt architecto."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 2
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": "2023-09-14T11:15:11.761Z"
+    },
+    "created": "2023-05-28T03:33:48.687Z",
+    "updated": "2022-10-22T01:26:54.541Z"
+  },
+  {
+    "id": "8c3517d0-350b-4609-bdbf-31b7e1b09502",
+    "description": "withdrawal transaction at Moen Group using card ending with ***2048 for MUR 125.25 in account ***01389226",
+    "amount": "191.45",
+    "start_date": "2023-06-24T19:13:23.583Z",
+    "type": "sub",
+    "scenario": "fd7245a2-ea98-464b-9012-076a957cdf77",
+    "category": "c4b77579-3223-4cbb-bb6d-11b8a2fb5e1c",
+    "reminder": {
+      "status": false,
+      "date": "2024-06-05T17:59:08.018Z",
+      "notes": "Fugiat excepturi magnam distinctio cum in velit porro culpa."
+    },
+    "frequency": {
+      "type": "monthly",
+      "value": 1
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": "2023-09-20T03:46:35.545Z"
+    },
+    "created": "2023-05-10T01:59:57.182Z",
+    "updated": "2023-03-09T15:16:09.722Z"
+  },
+  {
+    "id": "a2f9f807-4daa-4b00-b96d-5533fcb122db",
+    "description": "payment transaction at Funk, Fadel and Haley using card ending with ***1967 for UZS 890.40 in account ***68114538",
+    "amount": "146.44",
+    "start_date": "2022-09-08T22:18:18.351Z",
+    "type": "bank",
+    "scenario": "2759db85-9650-4338-aff8-b5171b90f73d",
+    "category": "b3d05a1c-7af7-4531-a0ad-d05fc6eaa362",
+    "reminder": {
+      "status": false,
+      "date": "2024-08-16T10:41:28.468Z",
+      "notes": "Illum alias voluptatibus."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 10
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": "2024-06-13T04:38:29.474Z"
+    },
+    "created": "2023-05-16T05:13:09.930Z",
+    "updated": "2023-04-09T15:40:38.680Z"
+  },
+  {
+    "id": "3c787d02-b5fb-4a0c-a19c-e12359ef43fc",
+    "description": "payment transaction at Mann - Schmeler using card ending with ***3400 for BOB 229.30 in account ***31787566",
+    "amount": "625.80",
+    "start_date": "2023-05-03T17:16:53.553Z",
+    "type": "sub",
+    "scenario": "f4507ac7-04c4-47b0-bc6e-709e1c8fad7a",
+    "category": "c77d4a39-4c16-4e21-8cba-37860290d101",
+    "reminder": {
+      "status": true,
+      "date": "2024-05-23T17:04:38.916Z",
+      "notes": "Reprehenderit provident error."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 2
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": "2024-07-11T19:07:55.739Z"
+    },
+    "created": "2023-02-17T13:36:29.439Z",
+    "updated": "2023-06-03T23:18:52.580Z"
+  },
+  {
+    "id": "dfecafd7-6bb3-42b6-9a44-bccfeefe0d78",
+    "description": "invoice transaction at Deckow - Skiles using card ending with ***7633 for AOA 238.78 in account ***11054380",
+    "amount": "252.96",
+    "start_date": "2023-09-03T03:47:34.313Z",
+    "type": "sub",
+    "scenario": "915c8624-7451-4bb3-a0f3-7011c1a47f2d",
+    "category": "38349610-7ebf-4bbf-ba56-eb13b12e0eb4",
+    "reminder": {
+      "status": false,
+      "date": "2024-01-25T21:00:42.360Z",
+      "notes": "Dolorum nam voluptate quo beatae delectus corrupti molestias adipisci."
+    },
+    "frequency": {
+      "type": "monthly",
+      "value": 5
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": "2024-03-31T13:53:49.280Z"
+    },
+    "created": "2022-10-09T16:11:10.866Z",
+    "updated": "2022-12-01T00:51:59.195Z"
+  },
+  {
+    "id": "07e949f4-c458-4db2-813b-c3329fa1126f",
+    "description": "withdrawal transaction at Adams, Christiansen and Hane using card ending with ***6250 for TTD 281.07 in account ***04780498",
+    "amount": "852.96",
+    "start_date": "2023-07-17T21:44:14.290Z",
+    "type": "data",
+    "scenario": "f9529a49-e341-4dca-9b38-8af7ac606d8b",
+    "category": "fd3da66a-6762-46b8-a70b-1c158c4b31e6",
+    "reminder": {
+      "status": true,
+      "date": "2024-05-17T22:08:21.865Z",
+      "notes": "Repudiandae quae quia eveniet occaecati fuga fugit fuga cupiditate excepturi."
+    },
+    "frequency": {
+      "type": "monthly",
+      "value": 1
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": "2024-03-12T06:08:53.235Z"
+    },
+    "created": "2022-09-28T05:06:47.016Z",
+    "updated": "2023-08-19T04:16:11.830Z"
+  },
+  {
+    "id": "6b83c160-6858-4f71-88b8-8071f8296264",
+    "description": "deposit transaction at McCullough, Schmeler and Hahn using card ending with ***0618 for ERN 587.26 in account ***43658018",
+    "amount": "659.85",
+    "start_date": "2023-05-22T22:58:22.371Z",
+    "type": "manual",
+    "scenario": "2ff69113-dfd8-4caf-8577-5338c9de7442",
+    "category": "ccd165bb-26b7-45ee-8825-ee6639748c13",
+    "reminder": {
+      "status": true,
+      "date": "2024-07-25T22:32:45.923Z",
+      "notes": "Soluta eos quis error."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 8
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": "2024-05-19T18:02:46.943Z"
+    },
+    "created": "2023-08-01T15:50:09.850Z",
+    "updated": "2022-12-28T20:40:25.483Z"
+  },
+  {
+    "id": "63043444-4a33-422d-a833-6d43871cb3cd",
+    "description": "payment transaction at Gibson and Sons using card ending with ***2114 for ZWL 549.35 in account ***25585082",
+    "amount": "780.96",
+    "start_date": "2023-05-06T10:24:27.619Z",
+    "type": "bank",
+    "scenario": "a2c3feb7-492b-44aa-a889-63110ed69d4c",
+    "category": "72054f49-a506-4d1f-9c22-d47675614c86",
+    "reminder": {
+      "status": true,
+      "date": "2024-09-03T18:15:29.698Z",
+      "notes": "Est fuga quod sequi modi iure."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 7
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": "2024-06-10T12:46:49.028Z"
+    },
+    "created": "2023-04-03T06:33:29.906Z",
+    "updated": "2023-01-30T12:08:47.359Z"
+  },
+  {
+    "id": "4657391a-feb1-4d2d-8888-50d252d07035",
+    "description": "withdrawal transaction at Hahn - Wyman using card ending with ***0002 for ANG 275.93 in account ***20547178",
+    "amount": "603.71",
+    "start_date": "2022-10-06T01:58:52.913Z",
+    "type": "data",
+    "scenario": "69883b24-0280-4369-a484-6b1414dbbf75",
+    "category": "c5b5ae38-9f8a-45e9-ae31-01ab90c92087",
+    "reminder": {
+      "status": false,
+      "date": "2024-05-05T04:00:22.362Z",
+      "notes": "Perferendis delectus aliquid voluptas iste vel."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 7
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": 1
+    },
+    "created": "2023-01-20T01:01:09.247Z",
+    "updated": "2023-08-09T19:44:34.929Z"
+  },
+  {
+    "id": "3eb2daca-724c-4304-972f-b683e6abb450",
+    "description": "invoice transaction at Glover Inc using card ending with ***5931 for VND 537.68 in account ***59122249",
+    "amount": "973.78",
+    "start_date": "2023-06-04T10:53:30.220Z",
+    "type": "sub",
+    "scenario": "90677195-09cf-44ec-8709-1f83ae9d93ec",
+    "category": "2a22180d-8d4d-484d-99e4-6a380716c6c3",
+    "reminder": {
+      "status": false,
+      "date": "2024-01-03T08:36:02.135Z",
+      "notes": "At nobis a possimus."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 5
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": 10
+    },
+    "created": "2023-02-04T14:00:11.814Z",
+    "updated": "2023-08-10T20:24:22.174Z"
+  },
+  {
+    "id": "9f6a91c7-468b-48c0-8c98-f103be86e5af",
+    "description": "withdrawal transaction at Schowalter, Mann and Heller using card ending with ***0098 for DZD 917.83 in account ***37938027",
+    "amount": "984.73",
+    "start_date": "2023-02-15T06:29:15.779Z",
+    "type": "data",
+    "scenario": "9a3ebbef-c8e8-42ce-8c29-635334144820",
+    "category": "67ea8cbf-cba8-44c4-9592-2d440b8b9e93",
+    "reminder": {
+      "status": false,
+      "date": "2023-10-26T11:01:01.101Z",
+      "notes": "Repellat dolore maiores adipisci eius nam pariatur officia cumque nisi."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 1
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": 2
+    },
+    "created": "2022-11-05T22:52:38.116Z",
+    "updated": "2023-06-01T05:27:45.992Z"
+  },
+  {
+    "id": "7a9abcc9-a95b-4bfa-bf63-e57886582670",
+    "description": "invoice transaction at Crona - Crist using card ending with ***8759 for KPW 796.88 in account ***49087625",
+    "amount": "324.22",
+    "start_date": "2022-12-27T05:50:17.905Z",
+    "type": "bank",
+    "scenario": "6a739942-abb4-43f9-9e89-6ef04329ae52",
+    "category": "3af85b34-29df-4ebc-86c4-fd673eaee668",
+    "reminder": {
+      "status": true,
+      "date": "2024-06-05T09:31:00.140Z",
+      "notes": "Adipisci eum officiis amet ipsum reiciendis."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 4
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": "2024-02-10T03:03:20.398Z"
+    },
+    "created": "2023-04-20T22:44:36.819Z",
+    "updated": "2022-10-23T07:21:16.655Z"
+  },
+  {
+    "id": "e34b5376-c246-4fa1-a47a-805b89de2cac",
+    "description": "withdrawal transaction at Shields, Heller and Legros using card ending with ***1630 for PYG 964.89 in account ***29539510",
+    "amount": "841.76",
+    "start_date": "2022-09-17T14:52:35.330Z",
+    "type": "data",
+    "scenario": "fefaf577-993d-4e63-8f36-adc7c3dcaafa",
+    "category": "a35312d5-e715-4368-af52-ad6d004c12ae",
+    "reminder": {
+      "status": false,
+      "date": "2024-03-14T04:25:12.592Z",
+      "notes": "Hic dicta exercitationem."
+    },
+    "frequency": {
+      "type": "daily",
+      "value": 3
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": 1
+    },
+    "created": "2022-09-25T18:37:05.818Z",
+    "updated": "2022-09-09T21:58:53.721Z"
+  },
+  {
+    "id": "d68b5817-fa26-4bdf-bb5a-147de5bef9b2",
+    "description": "deposit transaction at Kuhn Inc using card ending with ***2888 for IDR 682.73 in account ***37972997",
+    "amount": "799.82",
+    "start_date": "2023-01-12T09:46:14.057Z",
+    "type": "data",
+    "scenario": "3fc37872-fded-4177-8325-a77883c6d1a3",
+    "category": "f94ccb29-9948-4d29-80e8-e8220c55e11b",
+    "reminder": {
+      "status": true,
+      "date": "2023-10-04T13:09:50.045Z",
+      "notes": "Vero expedita repellat doloremque aliquam consequatur illo iusto."
+    },
+    "frequency": {
+      "type": "daily",
+      "value": 1
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": 3
+    },
+    "created": "2023-03-09T04:34:07.667Z",
+    "updated": "2023-02-27T16:05:13.714Z"
+  },
+  {
+    "id": "28646ce7-1b7d-463f-8457-8184c2500e20",
+    "description": "deposit transaction at Fisher - Prohaska using card ending with ***7051 for SDG 510.19 in account ***65771326",
+    "amount": "565.30",
+    "start_date": "2023-06-25T05:12:35.345Z",
+    "type": "data",
+    "scenario": "63b0d5ce-ad1a-4783-a193-fe23b1ebeb46",
+    "category": "139bfde6-5d90-47fd-a1a5-ecd52f8a5de9",
+    "reminder": {
+      "status": true,
+      "date": "2024-05-10T19:39:36.643Z",
+      "notes": "Vitae libero iure tempore."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 8
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": 2
+    },
+    "created": "2022-12-15T04:03:58.846Z",
+    "updated": "2023-05-04T11:17:34.184Z"
+  },
+  {
+    "id": "8ab7f0a9-dd63-4b95-bbe9-a3a6feb77290",
+    "description": "deposit transaction at Koelpin LLC using card ending with ***3017 for TND 422.05 in account ***05867095",
+    "amount": "604.19",
+    "start_date": "2023-02-05T03:03:58.500Z",
+    "type": "sub",
+    "scenario": "20edd970-8c2c-4841-9fc7-f517dfc82984",
+    "category": "075cabab-922d-41b4-a80e-60fead1e6a38",
+    "reminder": {
+      "status": true,
+      "date": "2023-11-19T08:42:57.656Z",
+      "notes": "Minus veniam adipisci quos et vero repudiandae aperiam corporis."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 5
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": 8
+    },
+    "created": "2023-07-05T03:45:03.018Z",
+    "updated": "2023-07-07T09:42:29.797Z"
+  },
+  {
+    "id": "7dcda301-3d43-4d79-a74c-077ebafbe1c5",
+    "description": "invoice transaction at Senger, Rodriguez and Nicolas using card ending with ***6017 for CAD 756.37 in account ***33694344",
+    "amount": "664.45",
+    "start_date": "2022-10-23T07:04:58.988Z",
+    "type": "bank",
+    "scenario": "0f1d14b7-3d6a-4bd6-9f12-30487c44de58",
+    "category": "a491ea94-9d9d-4092-92aa-be71585cd42e",
+    "reminder": {
+      "status": false,
+      "date": "2024-02-29T05:44:54.344Z",
+      "notes": "Debitis praesentium id asperiores voluptatibus soluta eos quia laboriosam."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 4
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": 4
+    },
+    "created": "2023-01-19T06:13:24.110Z",
+    "updated": "2023-01-16T22:39:41.126Z"
+  },
+  {
+    "id": "50e1cc28-b8a8-4aee-b94f-4f961aed6f29",
+    "description": "deposit transaction at Ferry Group using card ending with ***2028 for LBP 613.63 in account ***38141185",
+    "amount": "540.29",
+    "start_date": "2023-06-22T00:09:32.703Z",
+    "type": "bank",
+    "scenario": "472f5247-066b-4d7a-8a77-9aa3fca46dd5",
+    "category": "f618c4f9-3fff-4548-9dd5-ceb7ea8ac0c7",
+    "reminder": {
+      "status": true,
+      "date": "2024-01-20T13:54:05.209Z",
+      "notes": "Eos reprehenderit occaecati excepturi illum eius."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 10
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": 8
+    },
+    "created": "2023-03-26T06:24:24.579Z",
+    "updated": "2023-04-22T13:36:53.620Z"
+  },
+  {
+    "id": "48606615-6212-4c78-aee1-ab79b8a015ec",
+    "description": "invoice transaction at Green Group using card ending with ***8293 for SBD 793.37 in account ***17948557",
+    "amount": "209.10",
+    "start_date": "2023-08-01T03:01:39.875Z",
+    "type": "data",
+    "scenario": "32b2b204-a785-446f-ae8e-56161edb37d4",
+    "category": "a419cbf0-a627-49c1-8edf-677f05aba2e2",
+    "reminder": {
+      "status": false,
+      "date": "2023-11-05T04:52:50.259Z",
+      "notes": "Doloribus perspiciatis ut nobis adipisci repudiandae esse numquam optio veritatis."
+    },
+    "frequency": {
+      "type": "weekly",
+      "value": 7
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": 9
+    },
+    "created": "2022-11-23T20:35:18.420Z",
+    "updated": "2022-10-29T02:20:16.389Z"
+  },
+  {
+    "id": "c20181f9-bc74-4826-9024-2fca297f7a18",
+    "description": "invoice transaction at Mayert, Oberbrunner and Mayert using card ending with ***7846 for KWD 335.78 in account ***46707090",
+    "amount": "230.69",
+    "start_date": "2023-03-18T12:07:38.481Z",
+    "type": "sub",
+    "scenario": "1947efe6-5acf-4605-b6e2-c380a7444e1d",
+    "category": "45da03b7-7473-41a3-a988-7ffd1f51163a",
+    "reminder": {
+      "status": true,
+      "date": "2024-05-03T21:10:11.511Z",
+      "notes": "In nesciunt officiis quia."
+    },
+    "frequency": {
+      "type": "monthly",
+      "value": 3
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": "2023-12-26T19:26:55.340Z"
+    },
+    "created": "2022-10-29T02:12:58.009Z",
+    "updated": "2023-07-26T19:00:01.889Z"
+  },
+  {
+    "id": "26e72826-65cb-42b4-aae9-4ef06ee479b7",
+    "description": "deposit transaction at Wunsch, Larson and Gerlach using card ending with ***9793 for SRD 766.27 in account ***71717589",
+    "amount": "128.62",
+    "start_date": "2022-10-15T03:57:56.702Z",
+    "type": "manual",
+    "scenario": "c3a2dc45-6947-4442-9476-79f1114c70d2",
+    "category": "e622eba6-685b-425c-be98-1c300e64b9df",
+    "reminder": {
+      "status": true,
+      "date": "2023-11-15T10:57:49.570Z",
+      "notes": "Ea veritatis ab accusantium atque omnis reiciendis explicabo a."
+    },
+    "frequency": {
+      "type": "weekly",
+      "value": 4
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": "2024-04-02T04:47:46.138Z"
+    },
+    "created": "2023-01-11T07:42:30.031Z",
+    "updated": "2023-08-17T23:16:39.061Z"
+  },
+  {
+    "id": "fd82c4af-e1e0-4487-a440-2266850aca00",
+    "description": "invoice transaction at Rau, Gislason and Rosenbaum using card ending with ***5708 for STN 676.00 in account ***58216468",
+    "amount": "134.70",
+    "start_date": "2023-03-19T02:05:01.100Z",
+    "type": "manual",
+    "scenario": "236f41f4-8948-40b5-88ce-cfc4a9554ec3",
+    "category": "c2f35f57-c5a9-4c38-bb4c-cd4b225738db",
+    "reminder": {
+      "status": true,
+      "date": "2023-09-28T08:28:24.143Z",
+      "notes": "Animi tempora at quod expedita quasi iste."
+    },
+    "frequency": {
+      "type": "daily",
+      "value": 5
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": 2
+    },
+    "created": "2022-10-19T22:22:48.540Z",
+    "updated": "2023-07-13T07:02:07.210Z"
+  },
+  {
+    "id": "0b0b34bb-c68d-4cd0-80bd-8e054b6cadf4",
+    "description": "withdrawal transaction at Abbott - Reichel using card ending with ***8825 for AOA 322.74 in account ***80733488",
+    "amount": "381.07",
+    "start_date": "2022-12-21T14:35:46.328Z",
+    "type": "bank",
+    "scenario": "4d5e6492-cf23-4291-a449-44bb4f0309db",
+    "category": "106c3899-2596-4082-bd44-675a9dbcdecc",
+    "reminder": {
+      "status": false,
+      "date": "2024-05-24T05:18:47.201Z",
+      "notes": "Dolorum nihil quisquam eius a rerum voluptates assumenda."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 6
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": 5
+    },
+    "created": "2023-07-25T03:45:15.947Z",
+    "updated": "2023-06-25T17:38:01.890Z"
+  },
+  {
+    "id": "5d39bca6-06b4-4fc5-870e-c30560238fa1",
+    "description": "invoice transaction at Schneider, Roob and Klocko using card ending with ***7587 for MYR 79.47 in account ***35337179",
+    "amount": "845.96",
+    "start_date": "2022-10-17T10:10:44.632Z",
+    "type": "data",
+    "scenario": "6a667666-5c96-4cf3-9f32-619fe6c8896f",
+    "category": "a7582dcc-9786-4319-9821-f3c3879c7bd7",
+    "reminder": {
+      "status": true,
+      "date": "2024-03-08T19:33:26.688Z",
+      "notes": "Libero vel hic."
+    },
+    "frequency": {
+      "type": "weekly",
+      "value": 3
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": "2024-03-01T23:19:56.232Z"
+    },
+    "created": "2023-08-02T02:31:59.359Z",
+    "updated": "2022-12-19T05:09:05.461Z"
+  },
+  {
+    "id": "4dbc1097-3ebf-4bf0-bccc-c76c1e680657",
+    "description": "invoice transaction at Barton and Sons using card ending with ***3036 for TRY 295.48 in account ***13048677",
+    "amount": "697.36",
+    "start_date": "2022-12-14T22:40:53.861Z",
+    "type": "sub",
+    "scenario": "257a04f8-4d9e-4dec-b472-6d22845910ca",
+    "category": "dc3b9d4a-2672-4132-92c9-02813514a1c6",
+    "reminder": {
+      "status": false,
+      "date": "2023-09-12T15:14:33.344Z",
+      "notes": "Aliquam delectus nisi tempore accusamus architecto magnam."
+    },
+    "frequency": {
+      "type": "monthly",
+      "value": 6
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": 7
+    },
+    "created": "2023-02-10T22:25:08.857Z",
+    "updated": "2022-09-13T04:39:55.356Z"
+  },
+  {
+    "id": "ccd110e7-f90c-424b-9699-bc79c08a68e3",
+    "description": "deposit transaction at Block and Sons using card ending with ***4555 for KWD 117.43 in account ***87965321",
+    "amount": "262.22",
+    "start_date": "2022-10-11T00:50:08.860Z",
+    "type": "manual",
+    "scenario": "ee05ef4c-a585-4bb1-9a0b-0fdfa955298b",
+    "category": "8adfe4c1-2df4-49f9-b5b3-3bb8320f2ad1",
+    "reminder": {
+      "status": false,
+      "date": "2023-09-29T09:24:40.180Z",
+      "notes": "Porro est voluptatibus iusto mollitia officia doloribus inventore cum."
+    },
+    "frequency": {
+      "type": "daily",
+      "value": 1
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": "2023-09-11T02:09:34.614Z"
+    },
+    "created": "2023-01-27T08:07:20.612Z",
+    "updated": "2022-12-04T00:33:39.560Z"
+  },
+  {
+    "id": "721fa6a5-2291-425d-b7cb-7bc301181c61",
+    "description": "payment transaction at Sawayn Inc using card ending with ***9186 for PKR 206.65 in account ***72951935",
+    "amount": "908.21",
+    "start_date": "2022-10-01T21:40:17.160Z",
+    "type": "bank",
+    "scenario": "0ccaadf1-42f1-4ccc-b966-f684c52d40aa",
+    "category": "50a74c06-8cbd-405d-8818-be06550eabb2",
+    "reminder": {
+      "status": false,
+      "date": "2023-11-01T14:49:42.359Z",
+      "notes": "Aspernatur unde nemo voluptatem."
+    },
+    "frequency": {
+      "type": "daily",
+      "value": 7
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": "2024-05-12T19:33:07.318Z"
+    },
+    "created": "2023-05-19T13:54:55.833Z",
+    "updated": "2023-04-04T07:16:05.259Z"
+  },
+  {
+    "id": "44d15555-93cc-4e10-922e-312d0c3d496b",
+    "description": "withdrawal transaction at Kunde - Nitzsche using card ending with ***0454 for MUR 239.43 in account ***22507379",
+    "amount": "88.46",
+    "start_date": "2022-09-07T23:49:17.470Z",
+    "type": "bank",
+    "scenario": "08fd99b4-e787-4eab-b60c-d3f71dc8a1f8",
+    "category": "598c5850-b534-42ab-b1a4-72f20c4a6ce3",
+    "reminder": {
+      "status": false,
+      "date": "2023-11-18T11:04:36.625Z",
+      "notes": "Consequuntur error rem deleniti dolore necessitatibus magnam eligendi laborum iste."
+    },
+    "frequency": {
+      "type": "daily",
+      "value": 3
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": "2024-02-14T09:45:29.262Z"
+    },
+    "created": "2023-03-11T09:38:15.276Z",
+    "updated": "2022-10-14T13:57:36.240Z"
+  },
+  {
+    "id": "b021f56f-f45e-46b5-be94-86dca5ed478f",
+    "description": "deposit transaction at Lind - Jacobs using card ending with ***4604 for SCR 911.52 in account ***51483941",
+    "amount": "276.97",
+    "start_date": "2022-12-19T21:23:02.097Z",
+    "type": "sub",
+    "scenario": "6f499e17-71ba-4cd5-a328-08ca8391db7e",
+    "category": "403fed8e-bb17-496a-808f-4aea51791387",
+    "reminder": {
+      "status": true,
+      "date": "2024-02-14T17:04:57.956Z",
+      "notes": "Fugit deleniti omnis aperiam sequi distinctio eos ipsum quis."
+    },
+    "frequency": {
+      "type": "weekly",
+      "value": 10
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": "2024-03-23T21:08:25.672Z"
+    },
+    "created": "2023-07-08T06:53:47.765Z",
+    "updated": "2023-08-22T07:07:09.918Z"
+  },
+  {
+    "id": "bb8c721e-5237-455a-86af-046888025459",
+    "description": "payment transaction at Kautzer, Walker and Thiel using card ending with ***7325 for MYR 273.88 in account ***12531298",
+    "amount": "479.50",
+    "start_date": "2022-12-16T00:39:34.486Z",
+    "type": "sub",
+    "scenario": "948154ae-6a68-45fe-b6ef-d020cb0b84a6",
+    "category": "8a7197f7-165f-4817-a31c-9a462ad80b8e",
+    "reminder": {
+      "status": true,
+      "date": "2024-04-30T14:52:01.354Z",
+      "notes": "Fugit inventore molestiae atque commodi optio."
+    },
+    "frequency": {
+      "type": "daily",
+      "value": 1
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": 6
+    },
+    "created": "2022-11-17T02:05:23.196Z",
+    "updated": "2023-03-17T12:46:01.765Z"
+  },
+  {
+    "id": "0b768ffa-7d3a-4b3b-a7d3-55d40c9b47dc",
+    "description": "withdrawal transaction at Kling Group using card ending with ***1259 for CRC 747.14 in account ***13095841",
+    "amount": "354.15",
+    "start_date": "2022-10-09T08:49:35.411Z",
+    "type": "manual",
+    "scenario": "56d4aa10-253c-4484-8339-e0bd33b623f6",
+    "category": "40b3996a-0804-44d2-8461-604f57d149de",
+    "reminder": {
+      "status": false,
+      "date": "2024-07-31T00:15:03.594Z",
+      "notes": "Quod provident quisquam commodi non."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 10
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": "2024-04-13T10:17:36.442Z"
+    },
+    "created": "2023-09-03T07:55:26.298Z",
+    "updated": "2023-01-27T10:32:03.673Z"
+  },
+  {
+    "id": "c8073ba4-491e-4bc1-a1e9-9c2570b5a1db",
+    "description": "deposit transaction at Schoen, Nicolas and Gibson using card ending with ***6732 for CZK 920.80 in account ***60440207",
+    "amount": "821.34",
+    "start_date": "2022-11-30T07:59:11.051Z",
+    "type": "sub",
+    "scenario": "ab0ad160-78de-4ee6-a1c4-519a7c39ef62",
+    "category": "789e8148-cb9f-4ef1-a518-a2483fc65a4e",
+    "reminder": {
+      "status": false,
+      "date": "2024-04-04T21:32:24.844Z",
+      "notes": "Sit architecto vero molestiae."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 3
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": "2024-01-25T05:06:02.118Z"
+    },
+    "created": "2023-07-27T19:28:40.200Z",
+    "updated": "2023-07-07T01:08:44.104Z"
+  },
+  {
+    "id": "16f16965-663a-40b3-a956-fcbf4d6ea095",
+    "description": "deposit transaction at Lang - Schuppe using card ending with ***5499 for BTN 820.53 in account ***62355760",
+    "amount": "501.69",
+    "start_date": "2022-10-08T01:48:12.005Z",
+    "type": "bank",
+    "scenario": "a4ae06c5-7740-493e-9c29-aa3266358e13",
+    "category": "a6bb6b9c-0601-4bb6-8767-d4490123540e",
+    "reminder": {
+      "status": false,
+      "date": "2024-01-19T23:12:19.208Z",
+      "notes": "Minus inventore laboriosam placeat."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 9
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": "2024-04-29T19:46:44.117Z"
+    },
+    "created": "2022-09-21T04:34:42.870Z",
+    "updated": "2023-06-02T05:54:27.755Z"
+  },
+  {
+    "id": "918bd481-d6a3-4304-9b65-8c02f96a95b9",
+    "description": "payment transaction at Abbott, Abernathy and Ritchie using card ending with ***8595 for RWF 731.17 in account ***88190478",
+    "amount": "705.70",
+    "start_date": "2023-04-26T21:01:30.810Z",
+    "type": "data",
+    "scenario": "079bf34c-26bb-4391-8abf-300898e4b8b6",
+    "category": "3dc13eab-f9e2-4efa-a7dc-45f37e0e6e96",
+    "reminder": {
+      "status": true,
+      "date": "2023-09-24T13:09:07.714Z",
+      "notes": "Veritatis eum vero quidem ex sit rerum reiciendis."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 2
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": "2024-07-06T16:06:44.119Z"
+    },
+    "created": "2022-10-18T08:45:07.141Z",
+    "updated": "2023-05-27T05:03:51.461Z"
+  },
+  {
+    "id": "3db16f6e-36f9-448b-92b0-dfdc8d450c55",
+    "description": "deposit transaction at Beer Group using card ending with ***9855 for SZL 233.22 in account ***53654688",
+    "amount": "413.67",
+    "start_date": "2023-09-02T22:28:30.886Z",
+    "type": "data",
+    "scenario": "29e67097-46db-46ac-9458-f264f87e0a57",
+    "category": "1a249c96-e5d9-4ece-9a97-b55f07966002",
+    "reminder": {
+      "status": true,
+      "date": "2023-10-08T10:09:42.095Z",
+      "notes": "Dolor illo modi reprehenderit exercitationem officiis velit."
+    },
+    "frequency": {
+      "type": "weekly",
+      "value": 10
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": 5
+    },
+    "created": "2023-04-25T23:14:53.475Z",
+    "updated": "2023-08-13T22:23:17.338Z"
+  },
+  {
+    "id": "6e461884-def8-454c-b014-8dd580032072",
+    "description": "invoice transaction at Adams, Kilback and Hammes using card ending with ***3148 for LYD 139.63 in account ***66898044",
+    "amount": "985.81",
+    "start_date": "2023-07-13T22:40:40.016Z",
+    "type": "data",
+    "scenario": "b4b10269-eaa3-407d-9cf4-7d0e75835e69",
+    "category": "b34b909a-c75c-4be4-b1cb-cc9d25283c61",
+    "reminder": {
+      "status": false,
+      "date": "2024-09-02T05:34:17.370Z",
+      "notes": "Totam porro quaerat dolore ab itaque."
+    },
+    "frequency": {
+      "type": "monthly",
+      "value": 10
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": "2023-09-24T15:00:08.285Z"
+    },
+    "created": "2023-04-03T18:57:34.025Z",
+    "updated": "2022-12-28T22:20:54.781Z"
+  },
+  {
+    "id": "70659166-28b4-42a2-a037-a4150ff869e8",
+    "description": "invoice transaction at Rohan, Predovic and Botsford using card ending with ***6373 for LKR 109.12 in account ***57682791",
+    "amount": "539.41",
+    "start_date": "2023-06-24T09:54:27.809Z",
+    "type": "bank",
+    "scenario": "986dc20a-869a-4570-99d8-e5f39d528cf7",
+    "category": "95c573d8-4be5-44ae-94a8-56d81408661e",
+    "reminder": {
+      "status": true,
+      "date": "2023-11-01T10:56:20.189Z",
+      "notes": "Culpa quod illo pariatur."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 5
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": 1
+    },
+    "created": "2022-11-18T20:27:08.932Z",
+    "updated": "2023-04-19T20:41:02.897Z"
+  },
+  {
+    "id": "8683bf28-8ccf-4ff4-b3eb-fe0279083fa2",
+    "description": "invoice transaction at Bergnaum - Kautzer using card ending with ***2095 for IDR 100.60 in account ***63852352",
+    "amount": "59.03",
+    "start_date": "2023-05-06T07:00:57.237Z",
+    "type": "sub",
+    "scenario": "db7667ff-03f9-4348-827f-42efbb83517f",
+    "category": "b0147fc9-31c9-4b5f-8c3c-378d54bed8ea",
+    "reminder": {
+      "status": true,
+      "date": "2023-12-02T06:33:07.143Z",
+      "notes": "Maiores ipsa itaque nesciunt."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 3
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": "2024-03-05T16:39:42.953Z"
+    },
+    "created": "2023-02-15T14:29:39.830Z",
+    "updated": "2023-03-22T20:34:00.934Z"
+  },
+  {
+    "id": "3ca346ca-2c43-4d2c-9204-89e1b1c1e452",
+    "description": "deposit transaction at Bauch Group using card ending with ***6987 for UAH 492.89 in account ***49307673",
+    "amount": "736.32",
+    "start_date": "2023-07-25T23:02:28.629Z",
+    "type": "data",
+    "scenario": "89d9464f-580b-481f-93f2-f04f25a510b1",
+    "category": "3ec5f04d-7217-4391-8dcc-bcd150a05f12",
+    "reminder": {
+      "status": false,
+      "date": "2024-04-21T07:07:35.923Z",
+      "notes": "Magni officia rerum natus at consectetur exercitationem eos culpa corrupti."
+    },
+    "frequency": {
+      "type": "weekly",
+      "value": 1
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": 2
+    },
+    "created": "2023-08-18T12:26:36.289Z",
+    "updated": "2023-07-21T06:19:02.257Z"
+  },
+  {
+    "id": "40cb20f5-5484-404b-9461-f6054d4ed021",
+    "description": "invoice transaction at Abbott, VonRueden and Haley using card ending with ***3772 for PGK 214.74 in account ***54774629",
+    "amount": "337.52",
+    "start_date": "2023-01-18T05:51:21.447Z",
+    "type": "bank",
+    "scenario": "18b621b9-1f64-421d-b39b-878c7b53703c",
+    "category": "301b76f0-3da7-4df3-9953-1b640c87b2af",
+    "reminder": {
+      "status": true,
+      "date": "2023-09-22T09:11:27.828Z",
+      "notes": "Magni consectetur aut sed rem voluptates."
+    },
+    "frequency": {
+      "type": "monthly",
+      "value": 6
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": 10
+    },
+    "created": "2022-12-16T03:09:21.780Z",
+    "updated": "2023-07-31T10:56:21.815Z"
+  },
+  {
+    "id": "486a668a-b144-461d-9dd6-fc000f854245",
+    "description": "payment transaction at Jast and Sons using card ending with ***3128 for EGP 870.19 in account ***51005733",
+    "amount": "154.78",
+    "start_date": "2023-08-31T00:00:05.197Z",
+    "type": "sub",
+    "scenario": "3d317dda-f01b-4152-8f6e-8370958e9fbc",
+    "category": "8e5ae00f-65d7-4071-b606-ce0948852575",
+    "reminder": {
+      "status": false,
+      "date": "2024-01-24T23:43:54.838Z",
+      "notes": "Cupiditate culpa sed qui."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 3
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": 8
+    },
+    "created": "2023-08-09T05:20:48.694Z",
+    "updated": "2022-10-07T19:47:47.265Z"
+  },
+  {
+    "id": "a9616229-eacc-46b9-b81d-1d5fada2a4c6",
+    "description": "withdrawal transaction at Vandervort and Sons using card ending with ***3186 for BIF 369.51 in account ***82924514",
+    "amount": "424.98",
+    "start_date": "2022-12-01T12:51:03.974Z",
+    "type": "manual",
+    "scenario": "59a556bd-a009-462f-b546-54be5f856a32",
+    "category": "8d7b71e8-f03d-41fb-ab25-7f6b62f516b6",
+    "reminder": {
+      "status": true,
+      "date": "2024-01-28T10:41:07.809Z",
+      "notes": "Ad voluptas ea."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 3
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": 6
+    },
+    "created": "2023-06-20T17:27:06.519Z",
+    "updated": "2023-07-28T21:15:08.619Z"
+  },
+  {
+    "id": "7b102a5b-c91b-48fb-9b1e-0b777c7df040",
+    "description": "deposit transaction at Mueller LLC using card ending with ***8249 for XOF 514.04 in account ***33132609",
+    "amount": "998.06",
+    "start_date": "2023-05-25T03:31:13.073Z",
+    "type": "bank",
+    "scenario": "8fb8ab90-eb8b-4c45-bc78-aaf8624ce348",
+    "category": "360f6e85-97e5-46e6-8dc9-5687844bf1f2",
+    "reminder": {
+      "status": true,
+      "date": "2024-07-22T06:24:49.530Z",
+      "notes": "Itaque similique aliquid facere ullam eum."
+    },
+    "frequency": {
+      "type": "daily",
+      "value": 6
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": 10
+    },
+    "created": "2022-12-12T03:44:02.835Z",
+    "updated": "2023-07-28T04:10:29.694Z"
+  },
+  {
+    "id": "cf6b1cc9-5ab6-4583-aa05-0a4803586643",
+    "description": "deposit transaction at Schumm - Dach using card ending with ***8656 for BRL 610.65 in account ***56646829",
+    "amount": "25.19",
+    "start_date": "2023-04-01T01:51:33.121Z",
+    "type": "data",
+    "scenario": "a290c3ae-5a47-41e7-b469-6a2fdecc59cc",
+    "category": "63ef204a-40d7-44cf-a1ff-397daedc400e",
+    "reminder": {
+      "status": true,
+      "date": "2024-04-27T01:41:35.478Z",
+      "notes": "Impedit minima autem porro iure nobis qui tempora."
+    },
+    "frequency": {
+      "type": "daily",
+      "value": 8
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": "2024-03-17T23:00:07.123Z"
+    },
+    "created": "2023-02-19T18:06:56.550Z",
+    "updated": "2022-09-18T06:24:55.393Z"
+  },
+  {
+    "id": "e1524636-1437-4a33-a855-8f708fb86af3",
+    "description": "withdrawal transaction at Conroy - Schmitt using card ending with ***0821 for TND 964.77 in account ***35999891",
+    "amount": "989.13",
+    "start_date": "2023-07-10T14:58:21.666Z",
+    "type": "data",
+    "scenario": "7b052e6a-5387-4f03-9f6e-16fb8b7a5618",
+    "category": "da412399-0bfa-4d62-9e06-75bf9993eb3e",
+    "reminder": {
+      "status": false,
+      "date": "2023-09-22T16:40:45.695Z",
+      "notes": "Saepe saepe odit nostrum omnis veniam quasi laborum."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 9
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": 6
+    },
+    "created": "2023-05-12T20:59:09.173Z",
+    "updated": "2023-05-01T07:42:57.554Z"
+  },
+  {
+    "id": "897466c4-8845-4e48-b7c4-9483f613cfbd",
+    "description": "deposit transaction at Bartell, Cassin and Skiles using card ending with ***4773 for EGP 277.06 in account ***93592986",
+    "amount": "33.18",
+    "start_date": "2023-04-04T23:38:18.224Z",
+    "type": "data",
+    "scenario": "10be90ae-1b88-497d-877b-ad928854e19c",
+    "category": "39304baa-dd65-4d82-b07a-d277b95d4d44",
+    "reminder": {
+      "status": false,
+      "date": "2024-07-11T12:08:11.620Z",
+      "notes": "Vel asperiores est harum minima cumque dicta."
+    },
+    "frequency": {
+      "type": "weekly",
+      "value": 8
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": 2
+    },
+    "created": "2023-04-24T13:21:40.046Z",
+    "updated": "2023-06-29T21:50:46.245Z"
+  },
+  {
+    "id": "7cc3e8a1-9932-465a-b2d9-dfa0afe0ff28",
+    "description": "deposit transaction at Spinka, White and Fritsch using card ending with ***9226 for ERN 25.74 in account ***71376324",
+    "amount": "357.77",
+    "start_date": "2022-11-05T23:52:04.723Z",
+    "type": "manual",
+    "scenario": "9f672929-9c46-478a-95ec-fd411c1436d3",
+    "category": "1c2f3e4f-3ab9-4fa6-b91d-c91c8f9192f9",
+    "reminder": {
+      "status": false,
+      "date": "2024-07-18T04:56:56.313Z",
+      "notes": "Qui doloremque dolore totam aspernatur asperiores maxime doloremque quam."
+    },
+    "frequency": {
+      "type": "monthly",
+      "value": 10
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": "2024-06-10T03:49:55.617Z"
+    },
+    "created": "2023-05-03T14:24:58.547Z",
+    "updated": "2023-08-14T01:10:02.087Z"
+  },
+  {
+    "id": "195d8343-2af0-47d9-b2bb-27ee3025e36a",
+    "description": "deposit transaction at Leuschke and Sons using card ending with ***5498 for EUR 907.68 in account ***51026340",
+    "amount": "316.76",
+    "start_date": "2023-01-25T14:37:47.370Z",
+    "type": "bank",
+    "scenario": "ecb00440-3f9f-419e-ba9f-f9ec36f8b924",
+    "category": "2230249a-567c-4e91-9d77-eff279d32ec5",
+    "reminder": {
+      "status": false,
+      "date": "2023-09-10T11:18:05.761Z",
+      "notes": "Commodi in nam illum totam repellat dolores doloremque tempore."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 4
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": "2024-02-19T18:41:51.938Z"
+    },
+    "created": "2023-04-22T18:18:24.453Z",
+    "updated": "2022-10-29T14:19:55.566Z"
+  },
+  {
+    "id": "2f9d7e53-7f0b-47f9-b2c7-c7463c170c78",
+    "description": "deposit transaction at Fisher, Emard and Wolf using card ending with ***9450 for HUF 898.70 in account ***17882702",
+    "amount": "989.19",
+    "start_date": "2023-06-09T23:37:46.709Z",
+    "type": "sub",
+    "scenario": "0f39aca1-cbb3-438b-88be-a93fac667857",
+    "category": "92bbadb5-5f7e-44db-9d61-39b1632dfe54",
+    "reminder": {
+      "status": false,
+      "date": "2024-01-24T05:15:56.857Z",
+      "notes": "Repellendus ut pariatur rem ab quas quaerat officia vero."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 2
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": 8
+    },
+    "created": "2023-08-24T09:24:43.984Z",
+    "updated": "2023-01-04T21:03:32.262Z"
+  },
+  {
+    "id": "7befb35f-c78c-4edf-bb53-f3c72110b744",
+    "description": "payment transaction at Kub and Sons using card ending with ***6682 for UZS 199.01 in account ***92801269",
+    "amount": "950.18",
+    "start_date": "2023-07-18T08:58:04.962Z",
+    "type": "manual",
+    "scenario": "c685d575-6883-4857-a104-81cbc41f1003",
+    "category": "5d48e81b-5232-4339-a4ea-e9a1424bbed4",
+    "reminder": {
+      "status": false,
+      "date": "2024-09-03T19:31:16.573Z",
+      "notes": "Perferendis ad odio architecto dolorum animi sed neque tempore."
+    },
+    "frequency": {
+      "type": "monthly",
+      "value": 2
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": "2024-04-28T14:36:48.817Z"
+    },
+    "created": "2023-01-03T08:36:16.358Z",
+    "updated": "2022-09-15T09:09:29.255Z"
+  },
+  {
+    "id": "028364ab-f47a-4193-8366-384cf9030039",
+    "description": "deposit transaction at Hodkiewicz - Breitenberg using card ending with ***2480 for ETB 775.31 in account ***84181203",
+    "amount": "518.00",
+    "start_date": "2023-02-09T00:57:56.234Z",
+    "type": "data",
+    "scenario": "8d9fb608-624d-4ff9-8a8a-588f4b25cce8",
+    "category": "893aeb78-a6b5-4644-8207-358d0cd2a017",
+    "reminder": {
+      "status": true,
+      "date": "2024-08-29T14:11:28.804Z",
+      "notes": "Id hic nesciunt consectetur porro dicta odit."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 7
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": 7
+    },
+    "created": "2023-05-06T12:59:24.130Z",
+    "updated": "2023-01-04T02:18:01.918Z"
+  },
+  {
+    "id": "b5da84d0-5e1d-45bb-aee0-b0b01745932b",
+    "description": "withdrawal transaction at Grant Group using card ending with ***5068 for HUF 914.78 in account ***69522076",
+    "amount": "43.17",
+    "start_date": "2023-07-28T17:29:10.004Z",
+    "type": "manual",
+    "scenario": "d887e1f7-ab37-4873-bb60-fd6fd8afd1a7",
+    "category": "aba39299-ea96-4d45-93c2-30ccbda59ca1",
+    "reminder": {
+      "status": true,
+      "date": "2024-07-18T07:34:06.140Z",
+      "notes": "Recusandae maxime qui minus enim nam omnis natus."
+    },
+    "frequency": {
+      "type": "monthly",
+      "value": 3
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": "2024-08-25T01:19:25.565Z"
+    },
+    "created": "2022-10-15T11:21:36.115Z",
+    "updated": "2022-10-11T14:15:20.537Z"
+  },
+  {
+    "id": "71a04901-ce47-471f-8381-35afd634916e",
+    "description": "invoice transaction at Ernser and Sons using card ending with ***7407 for CRC 914.63 in account ***15057556",
+    "amount": "923.71",
+    "start_date": "2023-08-20T19:41:53.470Z",
+    "type": "manual",
+    "scenario": "84fdafa2-e66c-4895-9c08-7b9c892c4eb1",
+    "category": "6cb498c9-de39-4860-ab44-e3e6fad79b08",
+    "reminder": {
+      "status": false,
+      "date": "2023-11-23T10:41:30.674Z",
+      "notes": "Maiores cumque quis odio architecto eius."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 3
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": "2024-06-28T09:54:07.675Z"
+    },
+    "created": "2023-02-27T01:12:12.654Z",
+    "updated": "2023-07-06T01:51:31.110Z"
+  },
+  {
+    "id": "b22e2a70-69e7-45cb-af1d-66f35e34078c",
+    "description": "invoice transaction at Schuppe - Blanda using card ending with ***7766 for DZD 179.48 in account ***19996978",
+    "amount": "407.10",
+    "start_date": "2023-03-02T21:31:55.428Z",
+    "type": "bank",
+    "scenario": "37b5133c-42ee-40f3-b181-3a9ccb7b1632",
+    "category": "f1d7a44d-0e6b-447f-8cfb-0269c0dc5281",
+    "reminder": {
+      "status": true,
+      "date": "2023-10-10T19:51:45.648Z",
+      "notes": "Debitis deserunt atque dolor."
+    },
+    "frequency": {
+      "type": "daily",
+      "value": 2
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": 4
+    },
+    "created": "2023-07-27T20:44:27.432Z",
+    "updated": "2023-08-07T10:06:53.220Z"
+  },
+  {
+    "id": "17ac195b-4663-42b1-b6cd-ac5d6206ab8a",
+    "description": "deposit transaction at Pfeffer, Kerluke and Gorczany using card ending with ***8975 for MOP 246.03 in account ***31484205",
+    "amount": "840.63",
+    "start_date": "2023-05-21T06:59:55.348Z",
+    "type": "manual",
+    "scenario": "0e63c302-fefc-46fe-bebc-0559c57b3736",
+    "category": "641373ad-82ac-4496-9bf2-dfd0ce95a862",
+    "reminder": {
+      "status": false,
+      "date": "2024-07-01T10:41:27.286Z",
+      "notes": "Eius magnam enim neque aliquam."
+    },
+    "frequency": {
+      "type": "daily",
+      "value": 4
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": "2024-06-16T02:50:07.106Z"
+    },
+    "created": "2022-09-17T10:07:29.878Z",
+    "updated": "2022-11-08T13:03:58.799Z"
+  },
+  {
+    "id": "08d8cea4-541c-4646-b796-8b8db17efa81",
+    "description": "deposit transaction at Cassin - Dickinson using card ending with ***4504 for GTQ 808.50 in account ***78754314",
+    "amount": "397.34",
+    "start_date": "2023-08-18T19:47:57.610Z",
+    "type": "data",
+    "scenario": "74aa8fca-d573-437e-b419-53098b201f57",
+    "category": "5e5eb2eb-7478-4801-af6f-c7f51468b403",
+    "reminder": {
+      "status": false,
+      "date": "2024-03-29T04:23:43.118Z",
+      "notes": "Quasi sit beatae ut possimus officiis voluptates."
+    },
+    "frequency": {
+      "type": "monthly",
+      "value": 8
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": "2024-05-25T10:13:32.490Z"
+    },
+    "created": "2023-08-22T02:36:59.441Z",
+    "updated": "2023-04-15T18:16:37.262Z"
+  },
+  {
+    "id": "cd9cb61b-8ec3-41cc-a065-bde0734c7e9b",
+    "description": "payment transaction at Heathcote - Crooks using card ending with ***2927 for MOP 179.93 in account ***88460220",
+    "amount": "169.91",
+    "start_date": "2023-03-07T11:16:04.433Z",
+    "type": "sub",
+    "scenario": "61f5fa45-b3fc-49ec-ab40-3424019c0396",
+    "category": "cb8f7060-4d80-4c4e-a28a-33a28e237e11",
+    "reminder": {
+      "status": false,
+      "date": "2024-01-30T12:11:10.961Z",
+      "notes": "Ipsum ut esse occaecati a."
+    },
+    "frequency": {
+      "type": "monthly",
+      "value": 7
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": "2023-11-06T11:02:51.208Z"
+    },
+    "created": "2023-08-26T10:20:55.006Z",
+    "updated": "2023-08-16T03:01:36.221Z"
+  },
+  {
+    "id": "03c9d676-d6b5-4ada-b2a5-923ba24fee2d",
+    "description": "invoice transaction at Greenholt - Champlin using card ending with ***5714 for RSD 448.39 in account ***30557506",
+    "amount": "347.03",
+    "start_date": "2022-11-06T03:24:30.270Z",
+    "type": "bank",
+    "scenario": "5478a79c-cb00-4e03-8d17-8d5901bae5fa",
+    "category": "cd6b1277-7a50-4054-9d37-9b668a152ae2",
+    "reminder": {
+      "status": false,
+      "date": "2024-08-30T02:57:12.105Z",
+      "notes": "Veniam possimus iste fugit dolorum similique aut hic sunt."
+    },
+    "frequency": {
+      "type": "daily",
+      "value": 3
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": 4
+    },
+    "created": "2023-02-13T18:20:16.583Z",
+    "updated": "2023-06-12T21:48:14.403Z"
+  },
+  {
+    "id": "64470c0f-b839-46fb-b9bf-769feb1eedaf",
+    "description": "deposit transaction at Schumm Inc using card ending with ***8168 for SDG 114.71 in account ***10706089",
+    "amount": "529.17",
+    "start_date": "2023-06-22T05:49:38.899Z",
+    "type": "data",
+    "scenario": "67391071-fcf8-408e-ba63-a3025b2bc113",
+    "category": "16f0f860-7ab1-40d9-a64c-89dec81ab092",
+    "reminder": {
+      "status": false,
+      "date": "2023-09-14T06:18:53.211Z",
+      "notes": "Dicta explicabo architecto consectetur magni quas asperiores aspernatur modi totam."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 7
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": 3
+    },
+    "created": "2022-12-05T01:46:13.523Z",
+    "updated": "2022-11-18T04:41:42.787Z"
+  },
+  {
+    "id": "57d496a4-8f65-4d31-aada-2f6ddabd0799",
+    "description": "payment transaction at Nicolas LLC using card ending with ***3371 for AFN 159.95 in account ***44644674",
+    "amount": "825.89",
+    "start_date": "2023-01-09T13:54:18.542Z",
+    "type": "manual",
+    "scenario": "27470a3f-ef0b-48e3-8c75-6b7ac906514c",
+    "category": "790439b0-3cb5-4bb7-a5b1-5c51a53b060c",
+    "reminder": {
+      "status": false,
+      "date": "2024-08-29T20:35:52.934Z",
+      "notes": "Suscipit expedita dolores officiis."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 1
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": "2023-11-24T18:23:46.118Z"
+    },
+    "created": "2022-11-23T07:32:28.678Z",
+    "updated": "2022-10-31T07:54:40.259Z"
+  },
+  {
+    "id": "65eb117d-6fcc-435a-957a-049f9c1e3d43",
+    "description": "invoice transaction at Beahan LLC using card ending with ***9160 for ARS 300.64 in account ***10436217",
+    "amount": "765.29",
+    "start_date": "2022-10-22T03:56:23.157Z",
+    "type": "sub",
+    "scenario": "1c5cd77f-06d6-464a-a795-1f482cd2a3fe",
+    "category": "f64e94d3-9185-4bae-80bd-4fc6d30220ee",
+    "reminder": {
+      "status": true,
+      "date": "2023-11-12T03:39:57.581Z",
+      "notes": "Error corrupti sapiente."
+    },
+    "frequency": {
+      "type": "daily",
+      "value": 3
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": "2024-01-25T05:21:04.584Z"
+    },
+    "created": "2023-01-07T13:23:09.952Z",
+    "updated": "2022-10-29T02:50:21.989Z"
+  },
+  {
+    "id": "9aa8add1-8025-4fc8-b09f-bae8a0ebd85c",
+    "description": "payment transaction at Roob Inc using card ending with ***5781 for JMD 244.93 in account ***16645258",
+    "amount": "87.48",
+    "start_date": "2023-07-04T07:18:36.140Z",
+    "type": "sub",
+    "scenario": "85298980-0acb-486f-82cc-4606d92badc4",
+    "category": "88c09eab-c75b-463e-b0c5-a28be2d33efd",
+    "reminder": {
+      "status": false,
+      "date": "2024-03-23T11:23:43.807Z",
+      "notes": "Itaque totam aliquam."
+    },
+    "frequency": {
+      "type": "daily",
+      "value": 2
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": "2024-06-04T13:07:36.870Z"
+    },
+    "created": "2023-03-10T09:54:39.826Z",
+    "updated": "2023-03-13T03:19:31.401Z"
+  },
+  {
+    "id": "892f6d4a-fd84-492e-95bf-fc7ffcf925ff",
+    "description": "invoice transaction at Gutkowski - Berge using card ending with ***7715 for SYP 904.60 in account ***48338220",
+    "amount": "830.23",
+    "start_date": "2022-11-20T10:44:37.895Z",
+    "type": "sub",
+    "scenario": "4dd67de4-e96f-4698-be8b-48f41e070b3a",
+    "category": "14fc6768-9ba5-4466-a9e5-01e2d4603888",
+    "reminder": {
+      "status": false,
+      "date": "2024-04-02T08:29:56.711Z",
+      "notes": "Quaerat nulla nihil fugit asperiores quod reiciendis."
+    },
+    "frequency": {
+      "type": "daily",
+      "value": 5
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": "2024-02-09T15:24:09.846Z"
+    },
+    "created": "2022-09-11T08:02:51.608Z",
+    "updated": "2023-08-14T13:09:56.831Z"
+  },
+  {
+    "id": "12199de2-d440-41bc-90c2-e2c903225bb0",
+    "description": "payment transaction at Lubowitz, Wilderman and Waters using card ending with ***0955 for MZN 599.32 in account ***69174268",
+    "amount": "640.03",
+    "start_date": "2023-04-19T06:45:26.218Z",
+    "type": "bank",
+    "scenario": "aac5edd0-dd64-4e47-abae-73f95303ead3",
+    "category": "3de94160-e002-4de6-aa0d-1f47283528a1",
+    "reminder": {
+      "status": true,
+      "date": "2024-07-01T02:10:45.811Z",
+      "notes": "Tempore aspernatur fugiat natus vero modi excepturi corrupti."
+    },
+    "frequency": {
+      "type": "monthly",
+      "value": 7
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": 9
+    },
+    "created": "2022-12-02T22:44:57.582Z",
+    "updated": "2023-07-11T17:40:31.592Z"
+  },
+  {
+    "id": "83d23a36-d114-4c23-ab12-8dbfc81771db",
+    "description": "payment transaction at Luettgen LLC using card ending with ***4885 for PKR 828.59 in account ***51744533",
+    "amount": "866.02",
+    "start_date": "2022-11-19T17:28:08.799Z",
+    "type": "bank",
+    "scenario": "5254c0c5-5f14-4f38-af5b-269dd0b5323b",
+    "category": "3a27e886-c74e-40ae-a699-eca251b98fab",
+    "reminder": {
+      "status": false,
+      "date": "2023-11-12T15:11:39.352Z",
+      "notes": "Necessitatibus repellendus placeat."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 6
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": 1
+    },
+    "created": "2023-06-02T06:45:09.193Z",
+    "updated": "2023-04-14T11:02:51.775Z"
+  },
+  {
+    "id": "6debe45e-7bfe-413f-8fe5-5ec42ee6bb7d",
+    "description": "deposit transaction at Herman Group using card ending with ***7963 for DOP 383.71 in account ***48879104",
+    "amount": "827.99",
+    "start_date": "2022-10-24T05:07:47.179Z",
+    "type": "sub",
+    "scenario": "a1a9e826-5e52-4f2d-9550-a7fbb6d85d8e",
+    "category": "01a7e75e-e387-43cf-bac7-a0d0b75a39c1",
+    "reminder": {
+      "status": false,
+      "date": "2024-01-24T14:10:28.156Z",
+      "notes": "Dolor vel veniam."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 1
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": "2023-09-22T11:16:09.076Z"
+    },
+    "created": "2023-08-11T00:03:53.634Z",
+    "updated": "2023-04-12T19:32:56.892Z"
+  },
+  {
+    "id": "16d73e7e-eb9a-4f05-ab2d-0f623e60a0e4",
+    "description": "invoice transaction at Shields, Emard and Cruickshank using card ending with ***5887 for INR 206.36 in account ***85639056",
+    "amount": "419.67",
+    "start_date": "2023-09-02T20:39:03.221Z",
+    "type": "manual",
+    "scenario": "9c381a12-eec0-4989-ba74-4561e59afed9",
+    "category": "b54c2405-8197-4549-a45c-58ec8ddd8a56",
+    "reminder": {
+      "status": false,
+      "date": "2023-10-07T02:30:33.682Z",
+      "notes": "Esse blanditiis expedita blanditiis nihil officia magni amet nobis."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 2
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": 2
+    },
+    "created": "2023-04-06T17:12:22.591Z",
+    "updated": "2022-09-20T07:26:48.614Z"
+  },
+  {
+    "id": "3aa291be-4857-44d4-b888-1c8094b1c1b1",
+    "description": "deposit transaction at Zboncak - Zulauf using card ending with ***1872 for SZL 445.70 in account ***11330883",
+    "amount": "774.77",
+    "start_date": "2023-06-24T13:29:59.306Z",
+    "type": "manual",
+    "scenario": "0f209842-145b-4cf9-9ecc-43cc56c4f730",
+    "category": "574d58d1-4601-46b9-908c-d0f66ed42085",
+    "reminder": {
+      "status": true,
+      "date": "2024-06-05T21:24:51.694Z",
+      "notes": "Ipsa delectus suscipit quia voluptatibus aliquid sequi alias."
+    },
+    "frequency": {
+      "type": "monthly",
+      "value": 1
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": 6
+    },
+    "created": "2023-03-22T08:05:35.173Z",
+    "updated": "2022-09-07T13:14:30.279Z"
+  },
+  {
+    "id": "7b3121ca-115e-4d8a-a835-a03d1e3daffa",
+    "description": "invoice transaction at Littel and Sons using card ending with ***6237 for GNF 817.92 in account ***10021904",
+    "amount": "131.59",
+    "start_date": "2022-09-12T13:51:53.873Z",
+    "type": "sub",
+    "scenario": "ed00f432-3743-4690-ad12-9b49b28702f1",
+    "category": "64221187-8663-41c5-a6b3-6b8b70eddb69",
+    "reminder": {
+      "status": false,
+      "date": "2024-04-08T13:33:17.523Z",
+      "notes": "Sint delectus quis doloribus."
+    },
+    "frequency": {
+      "type": "daily",
+      "value": 4
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": "2023-09-30T09:27:33.275Z"
+    },
+    "created": "2023-08-29T11:08:21.057Z",
+    "updated": "2023-04-27T18:31:43.937Z"
+  },
+  {
+    "id": "a7fe16bf-031c-4733-97a9-0e0f3227a90f",
+    "description": "withdrawal transaction at Balistreri, Weissnat and Bernhard using card ending with ***7649 for SCR 36.42 in account ***62737647",
+    "amount": "669.59",
+    "start_date": "2023-04-25T00:49:07.964Z",
+    "type": "bank",
+    "scenario": "25d8972b-57f2-4c3c-a434-94d533e9f77f",
+    "category": "af8921dd-59f3-4158-ac28-fe3456ff1fc5",
+    "reminder": {
+      "status": false,
+      "date": "2023-11-11T02:57:06.919Z",
+      "notes": "Voluptatum fugiat rerum totam ipsum rerum incidunt quia deleniti."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 7
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": 10
+    },
+    "created": "2022-11-18T23:59:52.747Z",
+    "updated": "2023-07-19T08:20:02.701Z"
+  },
+  {
+    "id": "de2b39f1-8dda-4156-ac91-bbfbffbc3625",
+    "description": "withdrawal transaction at Romaguera, Labadie and Cormier using card ending with ***3638 for TRY 1.10 in account ***91641409",
+    "amount": "824.41",
+    "start_date": "2022-10-04T22:29:48.065Z",
+    "type": "data",
+    "scenario": "73507927-1299-4325-894a-60bf5568190b",
+    "category": "a1685894-bd80-433f-998f-b7f3b4ec1804",
+    "reminder": {
+      "status": true,
+      "date": "2024-03-14T13:22:06.587Z",
+      "notes": "Deserunt ipsum quae incidunt dignissimos dicta beatae vero."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 8
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": 5
+    },
+    "created": "2023-01-05T15:26:30.139Z",
+    "updated": "2022-11-17T19:06:59.309Z"
+  },
+  {
+    "id": "d92f101c-a7b9-4ab8-9055-d436910515c2",
+    "description": "deposit transaction at Kunze, Green and Cummerata using card ending with ***3382 for CHF 341.61 in account ***71862637",
+    "amount": "794.14",
+    "start_date": "2023-07-02T04:35:11.968Z",
+    "type": "bank",
+    "scenario": "87f0559a-799e-469a-b13a-f51f3eb50eff",
+    "category": "eb0237ea-d043-4004-91cf-36ab4b88acd0",
+    "reminder": {
+      "status": true,
+      "date": "2024-05-10T07:14:46.865Z",
+      "notes": "Ex tempore aperiam odio placeat."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 3
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": 9
+    },
+    "created": "2023-06-02T13:04:06.668Z",
+    "updated": "2023-04-26T07:38:08.232Z"
+  },
+  {
+    "id": "6e6a280f-b736-44e8-989b-4d05c9480612",
+    "description": "payment transaction at Wolf, Upton and Schowalter using card ending with ***6337 for OMR 180.65 in account ***94978729",
+    "amount": "569.05",
+    "start_date": "2022-09-17T13:16:24.943Z",
+    "type": "data",
+    "scenario": "969326da-a056-4f1c-b2eb-fb5f647ed73f",
+    "category": "1c722866-fc56-45a9-b379-034e572ef56f",
+    "reminder": {
+      "status": true,
+      "date": "2023-09-10T13:22:46.657Z",
+      "notes": "Soluta repudiandae exercitationem eveniet totam ut labore provident."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 6
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": 8
+    },
+    "created": "2023-03-14T11:21:30.264Z",
+    "updated": "2023-06-04T18:55:00.899Z"
+  },
+  {
+    "id": "56ffd2a3-3ad2-4d61-baf9-9d88cb489c06",
+    "description": "deposit transaction at Schaefer, Pouros and Lang using card ending with ***5556 for MWK 70.88 in account ***29651481",
+    "amount": "594.25",
+    "start_date": "2023-07-11T02:47:19.898Z",
+    "type": "bank",
+    "scenario": "a8765881-bf56-4131-a2d5-1e27119ccf28",
+    "category": "06652c57-2383-40db-ad34-e19be6dc49dd",
+    "reminder": {
+      "status": false,
+      "date": "2024-04-28T09:04:39.493Z",
+      "notes": "Ad aliquid hic pariatur velit."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 2
+    },
+    "transaction_end": {
+      "type": "never",
+      "value": 6
+    },
+    "created": "2022-11-25T04:03:59.459Z",
+    "updated": "2022-11-01T22:00:05.811Z"
+  },
+  {
+    "id": "bb675ac1-c11a-4ef6-a459-80cf01a606f0",
+    "description": "payment transaction at Kohler, Funk and Swift using card ending with ***6183 for MDL 412.84 in account ***34309510",
+    "amount": "843.16",
+    "start_date": "2022-10-05T05:55:25.796Z",
+    "type": "data",
+    "scenario": "13272113-9397-4342-878b-87c232463975",
+    "category": "90dae3f8-c567-48f9-8c18-cbbd66344eec",
+    "reminder": {
+      "status": true,
+      "date": "2023-09-28T10:53:49.969Z",
+      "notes": "Deleniti labore dolorum sit ut fugiat odio recusandae quidem quod."
+    },
+    "frequency": {
+      "type": "yearly",
+      "value": 2
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": 3
+    },
+    "created": "2023-08-09T04:13:19.016Z",
+    "updated": "2022-12-03T10:02:25.680Z"
+  },
+  {
+    "id": "6ef93f53-2cb5-4af3-9556-2d5038f9e36e",
+    "description": "payment transaction at Shanahan, Dickens and Jerde using card ending with ***2628 for XCD 256.50 in account ***62298505",
+    "amount": "587.87",
+    "start_date": "2023-09-04T21:46:16.239Z",
+    "type": "data",
+    "scenario": "8f2db91a-7caf-41f0-b9d3-a42ccc2aa850",
+    "category": "cf843cd4-7f31-4664-ac7b-6c0a70edc3de",
+    "reminder": {
+      "status": true,
+      "date": "2024-04-03T18:48:19.797Z",
+      "notes": "Alias quam placeat alias vitae adipisci animi adipisci."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 10
+    },
+    "transaction_end": {
+      "type": "date",
+      "value": 9
+    },
+    "created": "2023-05-29T13:27:00.658Z",
+    "updated": "2022-09-06T18:30:53.150Z"
+  },
+  {
+    "id": "defebc84-abbd-41cd-a485-cabc0c1a3ba1",
+    "description": "invoice transaction at Ernser - McDermott using card ending with ***3476 for RUB 19.73 in account ***95811131",
+    "amount": "887.39",
+    "start_date": "2023-08-16T11:01:25.672Z",
+    "type": "data",
+    "scenario": "13eaf24f-2fd9-4d2b-812f-59b2e741409c",
+    "category": "c06a53d3-1539-4941-971e-2b5e5140474c",
+    "reminder": {
+      "status": false,
+      "date": "2024-07-14T07:30:13.898Z",
+      "notes": "Ea officiis officia accusantium."
+    },
+    "frequency": {
+      "type": "custom",
+      "value": 5
+    },
+    "transaction_end": {
+      "type": "limit",
+      "value": 6
+    },
+    "created": "2022-10-23T15:37:08.416Z",
+    "updated": "2023-04-22T04:40:29.065Z"
+  }
+]

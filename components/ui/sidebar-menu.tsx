@@ -25,7 +25,7 @@ const menuList: SidebarMenuItem[] = [
     icon: <LuNewspaper />,
     link: "/assets-liabilities",
   },
-  { title: "Settings", icon: <LuCog />, link: "/account" },
+  { title: "Settings", icon: <LuCog />, link: "/settings" },
 ];
 
 const SidebarMenu = () => {
