@@ -1,0 +1,122 @@
+"use client";
+
+import * as z from "zod";
+import { useState } from "react";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { useForm } from "react-hook-form";
+
+import {
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from "@/components/ui/form";
+import { Input } from "@/components/ui/input";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Button } from "@/components/ui/button";
+
+const formSchema = z.object({
+  email: z.string().email(),
+  password: z.string().min(8),
+  rememberMe: z.boolean().optional(),
+});
+
+type SignInFormValues = z.infer<typeof formSchema>;
+
+const SignInForm = () => {
+  const [loading, setLoading] = useState(false);
+
+  const form = useForm<SignInFormValues>({
+    resolver: zodResolver(formSchema),
+    defaultValues: {
+      email: "",
+      password: "",
+    },
+  });
+
+  const onSubmit = async (values: SignInFormValues) => {
+    setLoading(true);
+    console.log(values);
+    setLoading(false);
+  };
+
+  return (
+    <>
+      <Form {...form}>
+        <form onSubmit={form.handleSubmit(onSubmit)}>
+          <FormField
+            control={form.control}
+            name="email"
+            render={({ field }) => (
+              <FormItem className="mb-4">
+                <FormControl>
+                  <Input
+                    className="dark:bg-gray-950 dark:placeholder:text-gray-700 dark:text-white/80 ease-soft bg-white text-gray-700 transition-all focus:border-gray-300"
+                    disabled={loading}
+                    placeholder="Email"
+                    {...field}
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+          <FormField
+            control={form.control}
+            name="password"
+            render={({ field }) => (
+              <FormItem className="mb-6">
+                <FormControl>
+                  <Input
+                    className="dark:bg-gray-950 dark:placeholder:text-gray-700 dark:text-white/80 ease-soft bg-white text-gray-700 transition-all focus:border-gray-300"
+                    disabled={loading}
+                    placeholder="Password"
+                    {...field}
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+          <FormField
+            control={form.control}
+            name="rememberMe"
+            render={({ field }) => (
+              <FormItem className="flex justify-start items-center">
+                <FormControl>
+                  <Checkbox checked={field.value} disabled={loading} />
+                </FormControl>
+                <FormLabel className="text-xs text-slate-400 pl-2 pb-2">
+                  Remember Me
+                </FormLabel>
+              </FormItem>
+            )}
+          />
+          <Button
+            disabled={loading}
+            className="w-full mt-6 font-semibold text-white uppercase transition-all bg-transparent active:opacity-85 hover:scale-102 hover:shadow-soft-xs leading-pro text-xs bg-gradient-to-tl from-blue-600 to-cyan-400 hover:border-slate-700 hover:bg-slate-700 hover:text-white"
+          >
+            Sign in
+          </Button>
+        </form>
+      </Form>
+      <div className="relative w-full max-w-full p-6 my-4 text-center shrink-0">
+        <p className="text-slate-400 text-sm mb-0 font-semibold before:bg-gradient-to-r before:from-transparent before:via-neutral-500/40 before:to-neutral-500/40 before:right-2 before:-ml-1/2 before:content-[''] before:inline-block before:w-3/10 before:h-px before:relative before:align-middle after:left-2 after:-mr-1/2 after:bg-gradient-to-r after:from-neutral-500/40 after:via-neutral-500/40 after:to-transparent after:content-[''] after:inline-block after:w-3/10 after:h-px after:relative after:align-middle">
+          Don&apos;t have an account?
+        </p>
+      </div>
+      <div className="text-center">
+        <Button
+          disabled={loading}
+          className="w-full mb-4 font-semibold text-white uppercase transition-all bg-transparent active:opacity-85 hover:scale-102 hover:shadow-soft-xs leading-pro text-xs bg-gradient-to-tl from-gray-900 to-slate-800 hover:border-slate-700 hover:bg-slate-700 hover:text-white"
+        >
+          Sign up
+        </Button>
+      </div>
+    </>
+  );
+};
+
+export default SignInForm;

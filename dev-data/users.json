@@ -1,0 +1,17 @@
+{
+  "id": "641b330f47c3001474dc4e2c",
+  "fullName": "YR Test",
+  "email": "yrtest1@email.com",
+  "password": "$2a$12$edKR5ciO4PDHYN..ki7ukOe9VTvW2iOTflQwUMYRTHJ9uyGN1P.12",
+  "loginType": {
+    "name": "email",
+    "userId": ""
+  },
+  "appTitle": "Zentaflow",
+  "currency": "USD",
+  "role": "user",
+  "status": "active",
+  "createdAt": "2014-09-22T09:22:55.000Z",
+  "updatedAt": "2014-09-22T09:22:55.000Z",
+  "lastLogin": "2014-09-22T09:22:55.000Z"
+}

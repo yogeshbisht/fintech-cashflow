@@ -1,0 +1,42 @@
+[
+  {
+    "id": "641b331047c3001474dc4e2e",
+    "name": "Main Account",
+    "opening": 0,
+    "active": true,
+    "currency": "USD",
+    "accountId": "",
+    "accountName": "",
+    "user": "641b330f47c3001474dc4e2c"
+  },
+  {
+    "id": "641b331047c3001474dc4e2f",
+    "name": "What If?",
+    "opening": 1000,
+    "active": false,
+    "currency": "AUD",
+    "accountId": "",
+    "accountName": "",
+    "user": "641b330f47c3001474dc4e2c"
+  },
+  {
+    "id": "641b331047c3001474dc4e30",
+    "name": "Budget",
+    "opening": 0,
+    "active": false,
+    "currency": "USD",
+    "accountId": "",
+    "accountName": "",
+    "user": "641b330f47c3001474dc4e2c"
+  },
+  {
+    "id": "641b331047c3001474dc4e31",
+    "name": "Available on Cash Credit",
+    "opening": 0,
+    "active": false,
+    "currency": "USD",
+    "accountId": "",
+    "accountName": "",
+    "user": "641b330f47c3001474dc4e2c"
+  }
+]
