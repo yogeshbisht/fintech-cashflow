@@ -1,7 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { FaDribbble, FaGithub, FaInstagram, FaPinterest, FaTwitter } from "react-icons/fa";
+import {
+  FaDribbble,
+  FaGithub,
+  FaInstagram,
+  FaPinterest,
+  FaTwitter,
+} from "react-icons/fa";
 
 const footerLinks = [
   { title: "Company" },
@@ -10,6 +16,14 @@ const footerLinks = [
   { title: "Products" },
   { title: "Blog" },
   { title: "Pricing" },
+];
+
+const socialLinks = [
+  { title: "Dribbble", icon: FaDribbble },
+  { title: "Twitter", icon: FaTwitter },
+  { title: "Instagram", icon: FaInstagram },
+  { title: "Pinterest", icon: FaPinterest },
+  { title: "Github", icon: FaGithub },
 ];
 
 const AuthFooter = () => {
@@ -24,30 +38,22 @@ const AuthFooter = () => {
           ))}
         </div>
         <div className="flex mb-8">
-          <a href="javascript:;" className="mr-6 text-slate-400">
-            <FaDribbble className="text-lg" />
-          </a>
-          <a href="javascript:;" className="mr-6 text-slate-400">
-            <FaTwitter className="text-lg" />
-          </a>
-          <a href="javascript:;" className="mr-6 text-slate-400">
-            <FaInstagram className="text-lg" />
-          </a>
-          <a href="javascript:;" className="mr-6 text-slate-400">
-            <FaPinterest className="text-lg" />
-          </a>
-          <a href="javascript:;" className="mr-6 text-slate-400">
-            <FaGithub className="text-lg" />
-          </a>
+          {socialLinks.map((link) => (
+            <Link href="#" key={link.title} className="mr-6 text-slate-400">
+              <link.icon className="text-lg" />
+            </Link>
+          ))}
         </div>
-        <div>
-          <p className="text-slate-400 text-sm">
-            Copyright ©<script>document.write(new Date().getFullYear())</script>
-            <a href="https://yogeshbisht.com" target="_blank">
-              Yogesh Raj Bisht
-            </a>
-            . All rights reserved.
-          </p>
+        <div className="text-slate-400 text-sm">
+          Copyright © {new Date().getFullYear()}
+          <a
+            href="https://yogeshbisht.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Yogesh Raj Bisht
+          </a>
+          . All rights reserved.
         </div>
       </div>
     </footer>
