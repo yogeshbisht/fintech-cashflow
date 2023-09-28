@@ -16,7 +16,6 @@ import {
 import { Input } from "@/components/ui/input";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Button } from "@/components/ui/button";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
 
 const formSchema = z.object({
@@ -29,8 +28,6 @@ const formSchema = z.object({
 type RegisterFormValues = z.infer<typeof formSchema>;
 
 const RegisterForm = () => {
-  const router = useRouter();
-
   const [loading, setLoading] = useState(false);
 
   const form = useForm<RegisterFormValues>({
@@ -66,7 +63,7 @@ const RegisterForm = () => {
                     {...field}
                   />
                 </FormControl>
-                <FormMessage />
+                <FormMessage className="form-error" />
               </FormItem>
             )}
           />
@@ -83,7 +80,7 @@ const RegisterForm = () => {
                     {...field}
                   />
                 </FormControl>
-                <FormMessage />
+                <FormMessage className="form-error" />
               </FormItem>
             )}
           />
@@ -100,7 +97,7 @@ const RegisterForm = () => {
                     {...field}
                   />
                 </FormControl>
-                <FormMessage />
+                <FormMessage className="form-error" />
               </FormItem>
             )}
           />
@@ -110,7 +107,11 @@ const RegisterForm = () => {
             render={({ field }) => (
               <FormItem className="flex justify-start items-center">
                 <FormControl>
-                  <Checkbox checked={field.value} disabled={loading} />
+                  <Checkbox
+                    checked={field.value}
+                    onCheckedChange={field.onChange}
+                    disabled={loading}
+                  />
                 </FormControl>
                 <FormLabel className="text-xs text-slate-400 pl-2 pb-2">
                   I agree the{" "}

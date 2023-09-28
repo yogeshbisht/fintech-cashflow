@@ -54,7 +54,7 @@ const SignInForm = () => {
             control={form.control}
             name="email"
             render={({ field }) => (
-              <FormItem className="mb-4">
+              <FormItem className="mb-6">
                 <FormControl>
                   <Input
                     className="dark:bg-gray-950 dark:placeholder:text-gray-700 dark:text-white/80 ease-soft bg-white text-gray-700 transition-all focus:border-gray-300"
@@ -63,7 +63,7 @@ const SignInForm = () => {
                     {...field}
                   />
                 </FormControl>
-                <FormMessage />
+                <FormMessage className="form-error" />
               </FormItem>
             )}
           />
@@ -71,7 +71,7 @@ const SignInForm = () => {
             control={form.control}
             name="password"
             render={({ field }) => (
-              <FormItem className="mb-6">
+              <FormItem className="mb-8">
                 <FormControl>
                   <Input
                     className="dark:bg-gray-950 dark:placeholder:text-gray-700 dark:text-white/80 ease-soft bg-white text-gray-700 transition-all focus:border-gray-300"
@@ -80,7 +80,7 @@ const SignInForm = () => {
                     {...field}
                   />
                 </FormControl>
-                <FormMessage />
+                <FormMessage className="form-error" />
               </FormItem>
             )}
           />
@@ -90,7 +90,11 @@ const SignInForm = () => {
             render={({ field }) => (
               <FormItem className="flex justify-start items-center">
                 <FormControl>
-                  <Checkbox checked={field.value} disabled={loading} />
+                  <Checkbox
+                    checked={field.value}
+                    onCheckedChange={field.onChange}
+                    disabled={loading}
+                  />
                 </FormControl>
                 <FormLabel className="text-xs text-slate-400 pl-2 pb-2">
                   Remember Me
