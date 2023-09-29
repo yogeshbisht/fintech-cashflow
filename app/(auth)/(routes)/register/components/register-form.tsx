@@ -4,6 +4,8 @@ import * as z from "zod";
 import { useState } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
+import DayJS from "dayjs";
+import Cookies from "js-cookie";
 
 import {
   Form,
@@ -17,12 +19,20 @@ import { Input } from "@/components/ui/input";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import axios from "axios";
+import toast from "react-hot-toast";
+
+// Creating a cookie for user session state
+const cookieExpiryDate = new Date();
+cookieExpiryDate.setDate(cookieExpiryDate.getDate() + 7);
 
 const formSchema = z.object({
   email: z.string().email(),
   password: z.string().min(8),
   confirmPassword: z.string().min(8),
-  agreeTerms: z.boolean().optional(),
+  agreeTerms: z.boolean().refine((val) => val === true, {
+    message: "You must agree to the terms and conditions",
+  }),
 });
 
 type RegisterFormValues = z.infer<typeof formSchema>;
@@ -41,8 +51,19 @@ const RegisterForm = () => {
   });
 
   const onSubmit = async (values: RegisterFormValues) => {
-    setLoading(true);
-    console.log(values);
+    try {
+      setLoading(true);
+
+      console.log(values);
+      await axios.post("/api/auth/register", {
+        ...values,
+        joinedDate: DayJS().format(),
+        lastLogin: DayJS().format(),
+      });
+      toast.success("Account created successfully!");
+    } catch (error) {
+      toast.error("Something went wrong. Please try again.");
+    }
     setLoading(false);
   };
 
@@ -105,23 +126,26 @@ const RegisterForm = () => {
             control={form.control}
             name="agreeTerms"
             render={({ field }) => (
-              <FormItem className="flex justify-start items-center">
-                <FormControl>
-                  <Checkbox
-                    checked={field.value}
-                    onCheckedChange={field.onChange}
-                    disabled={loading}
-                  />
-                </FormControl>
-                <FormLabel className="text-xs text-slate-400 pl-2 pb-2">
-                  I agree the{" "}
-                  <Link
-                    href="/terms-and-conditions"
-                    className="font-bold text-slate-500"
-                  >
-                    Terms and Conditions
-                  </Link>
-                </FormLabel>
+              <FormItem>
+                <div className="flex justify-start items-center ml-2">
+                  <FormControl>
+                    <Checkbox
+                      checked={field.value}
+                      onCheckedChange={field.onChange}
+                      disabled={loading}
+                    />
+                  </FormControl>
+                  <FormLabel className="text-xs text-slate-400 pl-2">
+                    I agree the{" "}
+                    <Link
+                      href="/terms-and-conditions"
+                      className="font-bold text-slate-500"
+                    >
+                      Terms and Conditions
+                    </Link>
+                  </FormLabel>
+                </div>
+                <FormMessage className="form-error" />
               </FormItem>
             )}
           />

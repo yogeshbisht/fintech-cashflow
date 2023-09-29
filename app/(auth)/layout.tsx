@@ -15,8 +15,9 @@ export default function AuthLayout({
               <h1 className="mt-12 mb-2 text-white text-4xl">Welcome!</h1>
               <p className="text-white ">
                 This is a demo application which is built using Next.js and
-                Tailwind CSS. It uses Clerk for authentication and
-                authorization.
+                Tailwind CSS. It is a fully responsive application which
+                includes authentication, routing, form validation, and many
+                more.
               </p>
             </div>
           </div>

@@ -1,6 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -8,4 +5,58 @@ generator client {
 datasource db {
   provider = "mongodb"
   url      = env("DATABASE_URL")
+}
+
+enum Role {
+  admin
+  user
+}
+
+type UsersLoginType {
+  google   UsersLoginTypeGoogle?
+  standard UsersLoginTypeStandard
+}
+
+type UsersLoginTypeGoogle {
+  status Boolean
+  user   String
+}
+
+type UsersLoginTypeStandard {
+  status Boolean @default(false)
+}
+
+model categories {
+  id       String @id @default(auto()) @map("_id") @db.ObjectId
+  name     String
+  order    Int
+  scenario String @db.ObjectId
+  type     String
+}
+
+model debts {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+}
+
+model scenarios {
+  id          String  @id @default(auto()) @map("_id") @db.ObjectId
+  accountId   String
+  accountName String
+  active      Boolean
+  currency    String
+  name        String
+  opening     Int
+  user        String  @db.ObjectId
+}
+
+model users {
+  id         String         @id @default(auto()) @map("_id") @db.ObjectId
+  appTitle   String         @default("My App")
+  currency   String         @default("USD")
+  email      String         @unique
+  joinedDate DateTime       @default(now()) @db.Date
+  lastLogin  DateTime       @db.Date
+  loginType  UsersLoginType
+  password   String
+  role       Role           @default(user)
 }
