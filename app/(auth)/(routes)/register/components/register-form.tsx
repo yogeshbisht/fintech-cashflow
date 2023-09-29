@@ -5,7 +5,6 @@ import { useState } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import DayJS from "dayjs";
-import Cookies from "js-cookie";
 
 import {
   Form,
@@ -21,6 +20,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import axios from "axios";
 import toast from "react-hot-toast";
+import { useRouter } from "next/navigation";
 
 // Creating a cookie for user session state
 const cookieExpiryDate = new Date();
@@ -38,6 +38,7 @@ const formSchema = z.object({
 type RegisterFormValues = z.infer<typeof formSchema>;
 
 const RegisterForm = () => {
+  const router = useRouter();
   const [loading, setLoading] = useState(false);
 
   const form = useForm<RegisterFormValues>({
@@ -54,17 +55,18 @@ const RegisterForm = () => {
     try {
       setLoading(true);
 
-      console.log(values);
       await axios.post("/api/auth/register", {
         ...values,
         joinedDate: DayJS().format(),
         lastLogin: DayJS().format(),
       });
       toast.success("Account created successfully!");
-    } catch (error) {
-      toast.error("Something went wrong. Please try again.");
+      router.push("/dashboard");
+    } catch (error: any) {
+      toast.error(error.response.data);
+    } finally {
+      setLoading(false);
     }
-    setLoading(false);
   };
 
   return (

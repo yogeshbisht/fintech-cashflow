@@ -1,6 +1,9 @@
 "use client";
 
 import * as z from "zod";
+import axios from "axios";
+import toast from "react-hot-toast";
+import DayJS from "dayjs";
 import { useState } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
@@ -41,9 +44,20 @@ const SignInForm = () => {
   });
 
   const onSubmit = async (values: SignInFormValues) => {
-    setLoading(true);
     console.log(values);
-    setLoading(false);
+    try {
+      setLoading(true);
+      const response = await axios.post("/api/auth/login", {
+        ...values,
+        lastLogin: DayJS().format(),
+      });
+      toast.success("Logged in successfully");
+      router.push("/dashboard");
+    } catch (error: any) {
+      toast.error(error.response.data);
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
