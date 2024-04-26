@@ -3,7 +3,6 @@
 import {
   LuChevronDown,
   LuCog,
-  LuHome,
   LuLayoutDashboard,
   LuNewspaper,
   LuTable2,
@@ -17,7 +16,6 @@ interface SidebarMenuItem {
 }
 
 const menuList: SidebarMenuItem[] = [
-  { title: "Home", icon: <LuHome />, link: "/" },
   { title: "Dashboard", icon: <LuLayoutDashboard />, link: "/dashboard" },
   { title: "Transactions", icon: <LuTable2 />, link: "/transactions" },
   {
