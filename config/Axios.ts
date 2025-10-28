@@ -4,8 +4,8 @@ import Cookies from "js-cookie";
 
 const SERVER_URL_MAP = {
   development: "http://localhost:8080",
-  production: "https://api.financiallence.com",
-  staging: "https://staging-api.financiallence.com",
+  production: "https://api.fintech-cashflow.com",
+  staging: "https://staging-api.fintech-cashflow.com",
 };
 
 export const SERVER_URL =
