@@ -8,7 +8,7 @@ export default function AuthLayout({
   return (
     <main>
       <div className="pb-56 pt-24 m-4 items-start rounded-xl p-0 relative overflow-hidden flex bg-cover bg-center bg-[url('../assets/img/curved-images/curved9.jpg')]">
-        <span className="absolute top-0 left-0 w-full h-full bg-center bg-cover opacity-60 bg-gradient-to-tl from-gray-900 to-slate-800"></span>
+        <span className="absolute top-0 left-0 w-full h-full bg-center bg-cover opacity-60 bg-linear-to-tl from-gray-900 to-slate-800"></span>
         <div className="relative z-1 w-full">
           <div className="flex items-center justify-center">
             <div className="px-3 max-w-xl mx-auto text-center">

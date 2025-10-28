@@ -153,7 +153,7 @@ const RegisterForm = () => {
           />
           <Button
             disabled={loading}
-            className="w-full mt-8 font-semibold text-white uppercase transition-all bg-transparent active:opacity-85 hover:scale-102 hover:shadow-soft-xs leading-pro text-xs bg-gradient-to-tl from-blue-600 to-cyan-400 hover:border-slate-700 hover:bg-slate-700 hover:text-white"
+            className="w-full mt-8 font-semibold text-white uppercase transition-all bg-transparent active:opacity-85 hover:scale-102 hover:shadow-soft-xs leading-pro text-xs bg-linear-to-tl from-blue-600 to-cyan-400 hover:border-slate-700 hover:bg-slate-700 hover:text-white"
           >
             Register
           </Button>

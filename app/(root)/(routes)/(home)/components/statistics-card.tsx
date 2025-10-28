@@ -35,7 +35,7 @@ const StatisticsCard: React.FC<StatisticsCardProps> = ({
             </span>
           </h5>
         </div>
-        <div className="w-12 h-12 flex justify-center items-center rounded-lg bg-gradient-to-tl from-purple-700 to-pink-500 shadow-soft-2xl">
+        <div className="w-12 h-12 flex justify-center items-center rounded-lg bg-linear-to-tl from-purple-700 to-pink-500 shadow-soft-2xl">
           {icon}
         </div>
       </div>
