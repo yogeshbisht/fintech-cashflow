@@ -1,4 +1,4 @@
-import { LuBarChart, LuCoins, LuUserPlus, LuUsers } from "react-icons/lu";
+import { LuCoins, LuUserPlus, LuUsers, LuChartBar } from "react-icons/lu";
 import StatisticsCard from "./components/statistics-card";
 import PageHeader from "@/components/ui/page-header";
 
@@ -26,7 +26,7 @@ const statisticsData = [
   {
     title: "Total Sales",
     value: 75326,
-    icon: <LuBarChart size="2em" />,
+    icon: <LuChartBar size="2em" />,
     percentage: 5,
     type: "amount",
   },
