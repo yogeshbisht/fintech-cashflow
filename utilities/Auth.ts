@@ -5,7 +5,8 @@ import { NextResponse } from "next/server";
 
 export const sendUserWithToken = (user: users, statusCode: number) => {
   const token = jwt.sign({ id: user.id }, process.env.JWT_SECRET!, {
-    expiresIn: process.env.JWT_EXPIRES_IN!,
+    algorithm: "RS256",
+    allowInsecureKeySizes: true,
   });
 
   const serialized = serialize("token", token, {
