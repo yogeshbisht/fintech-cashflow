@@ -47,14 +47,18 @@ const SignInForm = () => {
     console.log(values);
     try {
       setLoading(true);
-      const response = await axios.post("/api/auth/login", {
+      await axios.post("/api/auth/login", {
         ...values,
         lastLogin: DayJS().format(),
       });
       toast.success("Logged in successfully");
       router.push("/dashboard");
-    } catch (error: any) {
-      toast.error(error.response.data);
+    } catch (error) {
+      if (axios.isAxiosError(error)) {
+        toast.error(String(error.response?.data ?? "Something went wrong"));
+      } else {
+        toast.error("Something went wrong");
+      }
     } finally {
       setLoading(false);
     }
