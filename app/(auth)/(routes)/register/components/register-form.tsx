@@ -62,8 +62,12 @@ const RegisterForm = () => {
       });
       toast.success("Account created successfully!");
       router.push("/dashboard");
-    } catch (error: any) {
-      toast.error(error.response.data);
+    } catch (error) {
+      if (axios.isAxiosError(error)) {
+        toast.error(String(error.response?.data ?? "Something went wrong"));
+      } else {
+        toast.error("Something went wrong");
+      }
     } finally {
       setLoading(false);
     }
