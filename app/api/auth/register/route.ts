@@ -1,4 +1,4 @@
-import prismadb from "@/lib/prismadb";
+import { prisma } from "@/lib/prisma.js";
 import { sendUserWithToken } from "@/utilities/Auth";
 import bcrypt from "bcryptjs";
 import { NextRequest, NextResponse } from "next/server";
@@ -26,7 +26,7 @@ export async function POST(req: NextRequest) {
     const salt = await bcrypt.genSalt(10);
     const hashedPassword = await bcrypt.hash(password, salt);
 
-    const user = await prismadb.users.create({
+    const user = await prisma.users.create({
       data: {
         email,
         password: hashedPassword,

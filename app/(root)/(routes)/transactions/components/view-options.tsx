@@ -1,17 +1,16 @@
 "use client";
 
-import { DropdownMenuTrigger } from "@radix-ui/react-dropdown-menu";
-import { RxMixerHorizontal } from "react-icons/rx";
-import { Table } from "@tanstack/react-table";
-
-import { Button } from "@/components/ui/button";
 import {
-  DropdownMenu,
-  DropdownMenuCheckboxItem,
+  DropdownMenuTrigger,
   DropdownMenuContent,
   DropdownMenuLabel,
   DropdownMenuSeparator,
+  DropdownMenuCheckboxItem,
+  DropdownMenu,
 } from "@/components/ui/dropdown-menu";
+import { RxMixerHorizontal } from "react-icons/rx";
+import { Table } from "@tanstack/react-table";
+import { Button } from "@/components/ui/button";
 
 interface DataTableViewOptionsProps<TData> {
   table: Table<TData>;
@@ -22,7 +21,7 @@ export function DataTableViewOptions<TData>({
 }: DataTableViewOptionsProps<TData>) {
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger asChild>
+      <DropdownMenuTrigger>
         <Button
           variant="outline"
           size="sm"
@@ -32,14 +31,14 @@ export function DataTableViewOptions<TData>({
           View
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end" className="w-[150px]">
+      <DropdownMenuContent align="end" className="w-37.5">
         <DropdownMenuLabel>Toggle columns</DropdownMenuLabel>
         <DropdownMenuSeparator />
         {table
           .getAllColumns()
           .filter(
             (column) =>
-              typeof column.accessorFn !== "undefined" && column.getCanHide()
+              typeof column.accessorFn !== "undefined" && column.getCanHide(),
           )
           .map((column) => {
             return (

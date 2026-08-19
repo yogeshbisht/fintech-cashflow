@@ -1,4 +1,4 @@
-import prismadb from "@/lib/prismadb";
+import { prisma } from "@/lib/prisma.js";
 import { sendUserWithToken } from "@/utilities/Auth";
 import bcrypt from "bcryptjs";
 import { NextRequest, NextResponse } from "next/server";
@@ -15,7 +15,7 @@ export async function POST(req: NextRequest) {
       });
     }
 
-    const user = await prismadb.users.findUnique({
+    const user = await prisma.users.findUnique({
       where: {
         email,
       },
@@ -24,7 +24,7 @@ export async function POST(req: NextRequest) {
     if (user && !user.loginType.standard.status) {
       return new NextResponse(
         "You have an account created using one of social networks. Please, try to sign in with Google.",
-        { status: 401 }
+        { status: 401 },
       );
     }
 
@@ -38,7 +38,7 @@ export async function POST(req: NextRequest) {
       });
     }
 
-    await prismadb.users.update({
+    await prisma.users.update({
       where: {
         email,
       },

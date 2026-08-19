@@ -6,19 +6,16 @@ import toast from "react-hot-toast";
 import DayJS from "dayjs";
 import { useState } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useForm } from "react-hook-form";
-
-import {
-  Form,
-  FormControl,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-} from "@/components/ui/form";
+import { Controller, useForm } from "react-hook-form";
 import { Input } from "@/components/ui/input";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Button } from "@/components/ui/button";
+import {
+  Field,
+  FieldError,
+  FieldGroup,
+  FieldLabel,
+} from "@/components/ui/field";
 import { useRouter } from "next/navigation";
 
 const formSchema = z.object({
@@ -66,58 +63,55 @@ const SignInForm = () => {
 
   return (
     <>
-      <Form {...form}>
-        <form onSubmit={form.handleSubmit(onSubmit)}>
-          <FormField
-            control={form.control}
+      <form onSubmit={form.handleSubmit(onSubmit)}>
+        <FieldGroup>
+          <Controller
             name="email"
-            render={({ field }) => (
-              <FormItem className="mb-6">
-                <FormControl>
-                  <Input
-                    className="dark:bg-gray-950 dark:placeholder:text-gray-700 dark:text-white/80 ease-soft bg-white text-gray-700 transition-all focus:border-gray-300"
-                    disabled={loading}
-                    placeholder="Email"
-                    {...field}
-                  />
-                </FormControl>
-                <FormMessage className="form-error" />
-              </FormItem>
+            control={form.control}
+            render={({ field, fieldState }) => (
+              <Field data-invalid={fieldState.invalid} className="mb-6">
+                <Input
+                  className="dark:bg-gray-950 dark:placeholder:text-gray-700 dark:text-white/80 ease-soft bg-white text-gray-700 transition-all focus:border-gray-300"
+                  disabled={loading}
+                  placeholder="Email"
+                  {...field}
+                />
+                <FieldError className="form-error" />
+              </Field>
             )}
           />
-          <FormField
+          <Controller
             control={form.control}
             name="password"
-            render={({ field }) => (
-              <FormItem className="mb-8">
-                <FormControl>
-                  <Input
-                    className="dark:bg-gray-950 dark:placeholder:text-gray-700 dark:text-white/80 ease-soft bg-white text-gray-700 transition-all focus:border-gray-300"
-                    disabled={loading}
-                    placeholder="Password"
-                    {...field}
-                  />
-                </FormControl>
-                <FormMessage className="form-error" />
-              </FormItem>
+            render={({ field, fieldState }) => (
+              <Field data-invalid={fieldState.invalid} className="mb-8">
+                <Input
+                  className="dark:bg-gray-950 dark:placeholder:text-gray-700 dark:text-white/80 ease-soft bg-white text-gray-700 transition-all focus:border-gray-300"
+                  disabled={loading}
+                  placeholder="Password"
+                  {...field}
+                />
+                <FieldError className="form-error" />
+              </Field>
             )}
           />
-          <FormField
-            control={form.control}
+          <Controller
             name="rememberMe"
-            render={({ field }) => (
-              <FormItem className="flex justify-start items-center">
-                <FormControl>
-                  <Checkbox
-                    checked={field.value}
-                    onCheckedChange={field.onChange}
-                    disabled={loading}
-                  />
-                </FormControl>
-                <FormLabel className="text-xs text-slate-400 pl-2 pb-2">
+            control={form.control}
+            render={({ field, fieldState }) => (
+              <Field
+                data-invalid={fieldState.invalid}
+                className="flex justify-start items-center"
+              >
+                <Checkbox
+                  checked={field.value}
+                  onCheckedChange={field.onChange}
+                  disabled={loading}
+                />
+                <FieldLabel className="text-xs text-slate-400 pl-2 pb-2">
                   Remember Me
-                </FormLabel>
-              </FormItem>
+                </FieldLabel>
+              </Field>
             )}
           />
           <Button
@@ -126,8 +120,8 @@ const SignInForm = () => {
           >
             Login
           </Button>
-        </form>
-      </Form>
+        </FieldGroup>
+      </form>
       <div className="relative w-full max-w-full p-6 my-2 text-center shrink-0">
         <p className="text-slate-400 text-sm mb-0 font-semibold before:bg-linear-to-r before:from-transparent before:via-neutral-500/40 before:to-neutral-500/40 before:right-2 before:-ml-1/2 before:content-[''] before:inline-block before:w-3/10 before:h-px before:relative before:align-middle after:left-2 after:-mr-1/2 after:bg-linear-to-r after:from-neutral-500/40 after:via-neutral-500/40 after:to-transparent after:content-[''] after:inline-block after:w-3/10 after:h-px after:relative after:align-middle">
           Don&apos;t have an account?

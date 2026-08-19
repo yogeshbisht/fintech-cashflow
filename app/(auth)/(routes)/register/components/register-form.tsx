@@ -3,17 +3,10 @@
 import * as z from "zod";
 import { useState } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useForm } from "react-hook-form";
+import { Controller, useForm } from "react-hook-form";
 import DayJS from "dayjs";
 
-import {
-  Form,
-  FormControl,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-} from "@/components/ui/form";
+import { Field, FieldError, FieldLabel } from "@/components/ui/field";
 import { Input } from "@/components/ui/input";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Button } from "@/components/ui/button";
@@ -75,94 +68,85 @@ const RegisterForm = () => {
 
   return (
     <>
-      <Form {...form}>
-        <form onSubmit={form.handleSubmit(onSubmit)}>
-          <FormField
-            control={form.control}
-            name="email"
-            render={({ field }) => (
-              <FormItem className="mb-4">
-                <FormControl>
-                  <Input
-                    className="dark:bg-gray-950 dark:placeholder:text-gray-700 dark:text-white/80 ease-soft bg-white text-gray-700 transition-all focus:border-gray-300"
-                    disabled={loading}
-                    placeholder="Email"
-                    {...field}
-                  />
-                </FormControl>
-                <FormMessage className="form-error" />
-              </FormItem>
-            )}
-          />
-          <FormField
-            control={form.control}
-            name="password"
-            render={({ field }) => (
-              <FormItem className="mb-4">
-                <FormControl>
-                  <Input
-                    className="dark:bg-gray-950 dark:placeholder:text-gray-700 dark:text-white/80 ease-soft bg-white text-gray-700 transition-all focus:border-gray-300"
-                    disabled={loading}
-                    placeholder="Password"
-                    {...field}
-                  />
-                </FormControl>
-                <FormMessage className="form-error" />
-              </FormItem>
-            )}
-          />
-          <FormField
-            control={form.control}
-            name="confirmPassword"
-            render={({ field }) => (
-              <FormItem className="mb-6">
-                <FormControl>
-                  <Input
-                    className="dark:bg-gray-950 dark:placeholder:text-gray-700 dark:text-white/80 ease-soft bg-white text-gray-700 transition-all focus:border-gray-300"
-                    disabled={loading}
-                    placeholder="Confirm Password"
-                    {...field}
-                  />
-                </FormControl>
-                <FormMessage className="form-error" />
-              </FormItem>
-            )}
-          />
-          <FormField
-            control={form.control}
-            name="agreeTerms"
-            render={({ field }) => (
-              <FormItem>
-                <div className="flex justify-start items-center ml-2">
-                  <FormControl>
-                    <Checkbox
-                      checked={field.value}
-                      onCheckedChange={field.onChange}
-                      disabled={loading}
-                    />
-                  </FormControl>
-                  <FormLabel className="text-xs text-slate-400 pl-2">
-                    I agree the{" "}
-                    <Link
-                      href="/terms-and-conditions"
-                      className="font-bold text-slate-500"
-                    >
-                      Terms and Conditions
-                    </Link>
-                  </FormLabel>
-                </div>
-                <FormMessage className="form-error" />
-              </FormItem>
-            )}
-          />
-          <Button
-            disabled={loading}
-            className="w-full mt-8 font-semibold text-white uppercase transition-all bg-transparent active:opacity-85 hover:scale-102 hover:shadow-soft-xs leading-pro text-xs bg-linear-to-tl from-blue-600 to-cyan-400 hover:border-slate-700 hover:bg-slate-700 hover:text-white"
-          >
-            Register
-          </Button>
-        </form>
-      </Form>
+      <form onSubmit={form.handleSubmit(onSubmit)}>
+        <Controller
+          name="email"
+          control={form.control}
+          render={({ field, fieldState }) => (
+            <Field data-invalid={fieldState.invalid} className="mb-4">
+              <Input
+                className="dark:bg-gray-950 dark:placeholder:text-gray-700 dark:text-white/80 ease-soft bg-white text-gray-700 transition-all focus:border-gray-300"
+                disabled={loading}
+                placeholder="Email"
+                {...field}
+              />
+              <FieldError className="form-error" />
+            </Field>
+          )}
+        />
+        <Controller
+          control={form.control}
+          name="password"
+          render={({ field, fieldState }) => (
+            <Field data-invalid={fieldState.invalid} className="mb-4">
+              <Input
+                className="dark:bg-gray-950 dark:placeholder:text-gray-700 dark:text-white/80 ease-soft bg-white text-gray-700 transition-all focus:border-gray-300"
+                disabled={loading}
+                placeholder="Password"
+                {...field}
+              />
+              <FieldError className="form-error" />
+            </Field>
+          )}
+        />
+        <Controller
+          name="confirmPassword"
+          control={form.control}
+          render={({ field, fieldState }) => (
+            <Field data-invalid={fieldState.invalid} className="mb-6">
+              <Input
+                className="dark:bg-gray-950 dark:placeholder:text-gray-700 dark:text-white/80 ease-soft bg-white text-gray-700 transition-all focus:border-gray-300"
+                disabled={loading}
+                placeholder="Confirm Password"
+                {...field}
+              />
+              <FieldError className="form-error" />
+            </Field>
+          )}
+        />
+        <Controller
+          control={form.control}
+          name="agreeTerms"
+          render={({ field, fieldState }) => (
+            <Field
+              data-invalid={fieldState.invalid}
+              className="flex justify-start items-center ml-2"
+            >
+              <Checkbox
+                checked={field.value}
+                onCheckedChange={field.onChange}
+                disabled={loading}
+              />
+              <FieldLabel className="text-xs text-slate-400 pl-2">
+                I agree the{" "}
+                <Link
+                  href="/terms-and-conditions"
+                  className="font-bold text-slate-500"
+                >
+                  Terms and Conditions
+                </Link>
+              </FieldLabel>
+              <FieldError className="form-error" />
+            </Field>
+          )}
+        />
+        <Button
+          disabled={loading}
+          className="w-full mt-8 font-semibold text-white uppercase transition-all bg-transparent active:opacity-85 hover:scale-102 hover:shadow-soft-xs leading-pro text-xs bg-linear-to-tl from-blue-600 to-cyan-400 hover:border-slate-700 hover:bg-slate-700 hover:text-white"
+        >
+          Register
+        </Button>
+      </form>
       <div className="text-center">
         <p className="py-8 mb-0 leading-normal text-sm">
           Already have an account?{" "}

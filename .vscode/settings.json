@@ -1,0 +1,5 @@
+{
+  // Prisma 7's language server flags `url` in schema.prisma, but MongoDB
+  // still requires Prisma 6.19 and the URL belongs in the schema.
+  "prisma.pinToPrisma6": true
+}
