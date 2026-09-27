@@ -1,12 +1,9 @@
 "use client";
 
-import { useRouter } from "next/navigation";
-
-import HamburgerMenu from "@/components/ui/hamburger-menu";
+import HamburgerMenu from "@/components/hamburger-menu";
 import { FaBell, FaUser } from "react-icons/fa";
 
 const Navbar = () => {
-  const router = useRouter();
   return (
     <nav className="relative transition-all shadow-none duration-250 ease-soft-in rounded-2xl border border-slate-500">
       <div className="flex justify-between items-center p-6">

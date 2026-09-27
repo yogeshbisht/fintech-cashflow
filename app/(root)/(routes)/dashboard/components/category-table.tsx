@@ -1,4 +1,4 @@
-import PanelTitle from "@/components/ui/panel-title";
+import PanelTitle from "@/components/panel-title";
 
 const CategoryTable = () => {
   return (

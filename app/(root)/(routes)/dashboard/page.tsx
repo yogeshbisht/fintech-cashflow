@@ -1,4 +1,4 @@
-import PageHeader from "@/components/ui/page-header";
+import PageHeader from "@/components/page-header";
 import { CategoryColumn, columns } from "./components/columns";
 
 import categoryData from "@/dev-data/category-data.json";
@@ -14,7 +14,7 @@ const DashboardPage = () => {
       age: category.age,
       start_date: format(new Date(category.start_date), "MM/dd/yyyy"),
       salary: category.salary,
-    })
+    }),
   );
 
   return (

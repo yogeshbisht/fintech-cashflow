@@ -1,6 +1,6 @@
 import { LuCoins, LuUserPlus, LuUsers, LuChartBar } from "react-icons/lu";
 import StatisticsCard from "./components/statistics-card";
-import PageHeader from "@/components/ui/page-header";
+import PageHeader from "@/components/page-header";
 
 const statisticsData = [
   {
