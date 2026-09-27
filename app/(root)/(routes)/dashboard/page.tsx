@@ -20,7 +20,12 @@ const DashboardPage = () => {
   return (
     <div className="relative">
       <PageHeader title="Category Data" />
-      <DataTable columns={columns} data={formattedCategories} />
+      <DataTable
+        filterColumn="name"
+        filterPlaceholder="Filter names..."
+        columns={columns}
+        data={formattedCategories}
+      />
     </div>
   );
 };

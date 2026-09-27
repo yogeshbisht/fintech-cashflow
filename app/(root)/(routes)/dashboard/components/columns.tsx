@@ -1,7 +1,8 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { ColumnDef } from "@tanstack/react-table";
+import type { DataTableFeatures } from "@/components/data-table/features";
+import { type ColumnDef } from "@tanstack/react-table";
 import { ArrowUpDown } from "lucide-react";
 
 export type CategoryColumn = {
@@ -13,9 +14,10 @@ export type CategoryColumn = {
   salary: number;
 };
 
-export const columns: ColumnDef<CategoryColumn>[] = [
+export const columns: ColumnDef<DataTableFeatures, CategoryColumn>[] = [
   {
     accessorKey: "name",
+    filterFn: "includesString",
     header: ({ column }) => (
       <Button
         variant="ghost"

@@ -6,7 +6,7 @@ import { z } from "zod";
 
 import { columns } from "./components/columns";
 import { DataTable } from "@/components/ui/data-table";
-import { transactionSchema } from "../../../../dev-data/transactions/schema";
+import { transactionSchema } from "@/dev-data/transactions/schema";
 
 export const metadata: Metadata = {
   title: "Transactions",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 // Simulate a database read for tasks.
 async function getTransactions() {
   const data = await fs.readFile(
-    path.join(process.cwd(), "dev-data/transactions/transactions.json")
+    path.join(process.cwd(), "dev-data/transactions/transactions.json"),
   );
 
   const tasks = JSON.parse(data.toString());
@@ -50,11 +50,17 @@ export default async function TaskPage() {
           <div>
             <h2 className="text-2xl font-bold tracking-tight">Transactions</h2>
             <p className="text-muted-foreground">
-              This table displays the list of transactions that has been made by you using the selected scenarios.
+              This table displays the list of transactions that has been made by
+              you using the selected scenarios.
             </p>
           </div>
         </div>
-        <DataTable data={transactions} columns={columns} />
+        <DataTable
+          filterColumn="description"
+          filterPlaceholder="Filter transactions..."
+          data={transactions}
+          columns={columns}
+        />
       </div>
     </>
   );
